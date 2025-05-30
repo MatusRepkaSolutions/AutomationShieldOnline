@@ -19,6 +19,20 @@ The goal of this thesis was to lower the barrier of entry for students and educa
 - Integration of multiple AutomationShield models (e.g. AeroShield, FloatShield, MagnetoShield, FurutaShield)
 - Built-in user tutorials and documentation
 
+## ✅ Supported Features by Device
+
+| **Method**           | **AeroShield** | **FloatShield** | **MagnetoShield** | **FurutaShield** |
+|----------------------|----------------|------------------|-------------------|------------------|
+| **PID**              | ✅              | ✅                | ✅                 | ❌               |
+| **MPC**              | EMPC           | MPC+Kal          | EMPC              | EMPC             |
+| **MPC Manual**       | ✅              | ✅                | ✅                 | ❌               |
+| **LQ**               | LQI            | LQ+Kal           | LQ                | LQR              |
+| **LQ Manual**        | ✅              | ✅                | ✅                 | ❌               |
+| **Identification**   | ✅              | ❌                | ❌                 | ❌               |
+| **Closed-loop ID**   | ❌              | ✅                | ✅                 | ❌               |
+| **Open-loop**        | ✅              | ✅                | ❌                 | ❌               |
+
+
 ## 🧠 Educational Impact
 
 This system is intended to support interactive learning in automation and control engineering. It can be used in both university and secondary school environments to help students learn the fundamentals of control theory through hands-on experiments—without requiring deep programming knowledge.
