@@ -8,6 +8,14 @@ This project extends the [AutomationShield initiative](https://github.com/gergel
 
 The goal of this thesis was to lower the barrier of entry for students and educators by enabling control and visualization of AutomationShield experiments directly from a browser—without the need to recompile and upload Arduino code for every change.
 
+The entire system is currently deployed and running at:
+
+🔗 [https://mrsolutions.sk/automationshield/index.php](https://mrsolutions.sk/automationshield/index.php)
+
+This live version includes full functionality along with complete tutorials, multilingual interface, model selection, real-time data visualization, and more.
+
+✅ **Free to use** – available for educational, testing, or demonstration purposes without restrictions.
+
 ## 🎯 Main Features
 
 - Full-stack system for web-based control of Arduino-connected AutomationShield devices
