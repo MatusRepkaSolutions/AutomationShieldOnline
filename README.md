@@ -1,0 +1,1 @@
+This repository contains the source code and documentation for my diploma thesis, which extends the AutomationShield system. The project builds upon the AutomationShield platform to develop advanced control and automation functionality. It includes hardware and software components designed to support experimentation, prototyping, and educational use in control engineering.
