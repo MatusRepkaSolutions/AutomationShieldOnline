@@ -1,0 +1,1072 @@
+/********************* MAIN BODY *************************/
+.automation-shield-workbench{
+display:flex;
+width: 100%;
+flex-grow: 1;
+position: relative;
+padding:0;
+}
+/********************* SIDE PANEL *************************/
+.automation-shield-workbench-side-panel{
+display:flex;
+width: 20%;
+height: 91vh;
+padding: 0;
+flex-direction: column;
+background-color: #FAFAFA;
+box-shadow: 0 -6px 20px rgba(0, 0, 0, 0.4);
+margin: 0;
+border-radius: 0;
+}
+/********************* HEADER *************************/
+.side-panel-header{
+display:flex;
+width: auto;
+height: 20px;
+color: black;
+padding: 0;
+background-color: transparent;
+margin: 10px auto;
+font-size: 15px;
+font-family: inherit;
+font-weight: 400;
+text-align: center;
+}
+/********************* DIVIDER *************************/
+.side-panel-divider{
+display:flex;
+width: 80%;
+height: 2px;
+padding: 0;
+background-color: black;
+margin: 0 auto;
+}
+/********************* SELECT *************************/
+.side-panel-select {
+  display: block;
+  position: relative;
+  font-family: inherit;
+  width: 100%; 
+  margin: 10px 0; 
+}
+.side-panel-select select{
+  display:flex;
+  margin: 0 auto;
+  width: 200px;
+  font-size: 20px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #57AB59;
+  font-weight: 750;
+  cursor: pointer;
+  color: #FFF;
+  border-radius: 5px;
+}
+/********************* FORM *************************/
+.side-panel-form {
+display:flex;
+width: 100%;
+padding: 0;
+flex-direction: column;
+background-color: transparent;
+margin: 0;
+border-radius: 0;
+flex-grow: 1;
+}
+.side-panel-form-line-wrapper{
+display:flex;
+margin: 10px 0;
+width: 100%;
+padding: 0;
+flex-direction: row;
+}
+.side-panel-form-line-wrapper-column{
+display:flex;
+margin: 10px auto;
+width: 100%;
+padding: 0;
+flex-direction: column;
+}
+/********************* FORM IMPUT ROW *************************/
+.side-panel-form-line-input-text{
+display: flex;
+font-size: 16px;
+font-weight: 400;
+color: black;
+width:20%;
+padding: 0 0 0 20%;
+align-items: center;
+}
+.side-panel-form-line-input{
+font-family: 'Noto Sans';
+font-size: 16px;
+line-height: 20px;
+padding: 5px;
+color: black;
+border: 1px solid #57AB59;
+width: 40%;
+margin:0 20% 0 0;
+text-align: center;
+border-radius: 5px;
+}
+/********************* FORM IMPUT ROW - big text *************************/
+.side-panel-form-line-input-text-long{
+display: flex;
+font-size: 16px;
+font-weight: 400;
+color: black;
+width:60%;
+padding: 0 0 0 10%;
+align-items: center;
+}
+.side-panel-form-line-input-short{
+font-family: 'Noto Sans';
+font-size: 16px;
+line-height: 20px;
+padding: 5px;
+color: black;
+border: 1px solid #57AB59;
+width: 30%;
+margin:0 10% 0 0;
+text-align: center;
+border-radius: 5px;
+}
+/********************* FORM IMPUT COLUMN *************************/
+.side-panel-form-line-input-text-column{
+display: flex;
+font-size: 16px;
+font-weight: 400;
+color: black;
+width:auto;
+text-align: center;
+margin: 0 auto;
+}
+.side-panel-form-line-input-column{
+font-family: 'Noto Sans';
+font-size: 16px;
+line-height: 20px;
+padding: 5px;
+color: black;
+border: 1px solid #57AB59;
+width: 80%;
+margin: 0 auto;
+text-align: center;
+border-radius: 5px;
+}
+/********************* MANUAL TIP ********************/
+.side-panel-form-manual-tip-header{
+display: flex;
+width: auto;
+margin: 10px auto;
+color: black;
+text-decoration: underline;
+font-size: 13px;
+font-weight: 400;
+}
+.tooltip .side-panel-form-manual-tip{
+visibility: hidden;
+opacity: 0;
+position: absolute;
+font-size: 14px;
+font-weight: 400;
+color: black;
+width: 200px;
+bottom: -319px;
+left: -91%;
+border-radius: 5px;
+background-color: #333;
+items-align: center;
+padding: 20px;
+transition: opacity 0.3s;
+z-index: 1000000000000;
+gap: 20px;
+flex-direction: column;
+}
+.side-panel-form-manual-tip-txt{
+display: flex;
+font-size: 14px;
+font-weight: 400;
+color: white;
+width:auto;
+text-align: center;
+margin: 0 auto 10px auto;
+}
+.side-panel-form-manual-tip-img{
+display: flex;
+width: 80%;
+height: auto;
+margin: auto;
+}
+/********************* INFO LQI MPC ********************/
+.side-panel-form-info{
+display: flex;
+width:auto;
+margin: 0 auto;
+justify-content: left;
+flex-direction: column;
+}
+.side-panel-form-info-line{
+display: flex;
+flex-direction: row;
+}
+.side-panel-form-info-var{
+display: flex;
+font-size: 14px;
+font-weight: 400;
+margin: auto 5px auto 0;
+color: black;
+width: 150px;
+}
+.lq{
+width: auto;
+}
+.side-panel-form-info-data{
+display: flex;
+font-size: 14px;
+font-weight: 400;
+color: black;
+margin: auto 0;
+width:auto;
+}
+.side-panel-form-info-data{
+display: flex;
+font-size: 14px;
+font-weight: 400;
+color: black;
+width:auto;
+}
+/********************* WHAT IS ********************/
+.side-panel-WHAT-IS{
+display: flex;
+font-size: 16px;
+font-weight: 400;
+color: black;
+width:auto;
+flex-direction: column;
+}
+.side-panel-WHAT-IS-txt{
+display: flex;
+font-size: 13px;
+font-weight: 400;
+color: #5A4FCF;
+width:auto;
+text-align: center;
+margin: 0 auto;
+}
+.side-panel-WHAT-IS-txt:visited{
+color: #5A4FCF;
+}
+.side-panel-WHAT-IS-txt:hover{
+color: #7D7098;
+}
+
+/********************* TOOLTIP *************************/
+.tooltip {
+    position: relative;
+    cursor: help;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1000000;
+    bottom: 125%;
+    left: 100%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.tooltip .tooltiptext2 {
+    visibility: hidden;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1000000;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.tooltip .tooltiptext3 {
+    visibility: hidden;
+    min-width: 250px;
+    width: auto;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 20px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1000000;
+    bottom: -200%;
+    left: -200%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.tooltip .tooltiptext4 {
+    visibility: hidden;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1000000;
+    bottom: 125%;
+    left: -200%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.tooltip:hover .tooltiptext,
+.tooltip:hover .tooltiptext2,
+.tooltip:hover .tooltiptext3,
+.tooltip:hover .tooltiptext4,
+.tooltip:hover .side-panel-form-manual-tip {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltipicon{
+    display: flex;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 0%;
+    left: calc(10vw + 102px);
+}
+
+/******************** IMAGE **********************/
+.side-panel-form-img-wrapper {
+    height: 22vh;
+    transition: height 0.3s ease-in-out;
+    width: 20vw;
+    padding: 0;
+    left: 0;
+    bottom: 2%;
+    background-color: transparent;
+    display: flex;
+    position: absolute;
+    align-items: center;
+}
+.side-panel-form-img-href {
+    margin: auto;
+}
+.side-panel-form-img {
+    height: 22vh;
+    transition: height 0.3s ease-in-out;
+    width: auto;
+    display: block;
+}
+.side-panel-form-img:focus,
+.side-panel-form-img:hover {
+    height: 23vh;
+} 
+.side-panel-form-img:action {
+    height: 20vh;
+}
+
+
+
+/******************** SUBMIT BUTTON **********************/
+.form-submit-button-line{
+    display: flex;
+    width: 100%;
+    padding: 0;
+    flex-direction: row;
+    margin: auto auto 25vh auto;
+    position: relative;
+}
+
+.form-submit-button{
+font-family: 'Noto Sans';
+font-size: 16px;
+line-height: 20px;
+padding: 5px 0;
+color: white;
+width: 200px;
+height: 34px;
+text-align: center;
+border-radius: 5px;
+word-wrap: break-word;
+word-break: break-word;
+background-color: #F48220;
+cursor: pointer;
+border: none;
+transition: font-size 0.3s;
+margin: auto;
+}
+.form-submit-button:hover {
+    font-size: 19px;
+}
+
+.form-submit-button:active {
+    font-size: 12px;
+}
+
+/********************* ALERT *************************/
+.start-alert{
+    display: none;
+    max-width: 16vw;
+    padding: 2px 0;
+    border-radius: 5px;
+    width: auto;
+    color: black;
+    margin: 5px auto auto auto;
+    text-align: center;
+    height: auto;
+    position: absolute;
+    background-color: yellow;
+    font-size: 11px;
+    top: 100%;
+    right: 0;
+    left: 0;
+    transition: display 0.3s ease-in-out;
+}
+.start-alert[show="true" i]{
+    display: block;
+}
+
+
+/********************* MAIN PANEL *************************/
+.automation-shield-workbench-main-panel-wrapper{
+display:flex;
+width: 80%;
+max-height: 91vh;
+padding: 0;
+margin: 0;
+flex-direction: column;
+overflow-y:scroll;
+overflow-x: hidden;
+}
+ .automation-shield-workbench-main-panel-wrapper::-webkit-scrollbar{
+   width: 20px;
+ }
+ .automation-shield-workbench-main-panel-wrapper::-webkit-scrollbar-track{
+   box-shadow: inset 0 0 2px grey; 
+ }
+ .automation-shield-workbench-main-panel-wrapper::-webkit-scrollbar-thumb{
+   background: #57AB59; 
+ }
+.automation-shield-workbench-main-panel{
+display:flex;
+width: 100%;
+min-height: 200vh;
+flex-grow: 1;
+padding: 0;
+flex-direction: column;
+}
+/********************* DIVIDER *************************/
+.workbench-header-divider{
+display:flex;
+width: 80%;
+height: 2px;
+padding: 0;
+background-color: black;
+margin: 0 auto 10px auto;
+}
+.workbench-header-divider[furuta="true" i]{
+margin: 0px auto 0px auto;
+}
+/********************* DISCONNECTED *********************/
+.Shield-disconnected-wrapper{
+display: none;
+position: absolute;
+width: 100%;
+height: 100%;
+backdrop-filter: blur(6px);
+}
+.Shield-disconnected-wrapper[disconnected="true" i]{
+display: block;
+}
+.Shield-disconnected-text{
+    display: flex;
+    color: black;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 25vh auto 5vh auto;
+}
+.Shield-disconnected-href{
+    display: flex;
+    width: 250px;
+    height: 40px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+.Shield-disconnected-button{
+font-family: 'Noto Sans';
+font-size: 21px;
+line-height: 23px;
+padding: 5px 0;
+color: white;
+width: 250px;
+height: 40px;
+text-align: center;
+border-radius: 5px;
+word-wrap: break-word;
+word-break: break-word;
+background-color: #f45520;
+cursor: pointer;
+border: none;
+transition: font-size 0.3s;
+margin: auto;
+}
+.form-submit-button:hover {
+    font-size: 19px;
+}
+
+.form-submit-button:active {
+    font-size: 12px;
+}
+/********************* GRAPH CONTAINER WRAPPER *************************/
+.workbench-graph-container-wrapper {
+    width: 95%; 
+    height: 34vh; 
+    margin: 0px auto 0px auto;
+    overflow-x: hidden; 
+    overflow-y: hidden; 
+    white-space: nowrap; 
+    box-sizing: border-box;
+    border: none; 
+    padding: 0; 
+    transition: height 0.3s ease-in-out;
+    background-color: #fff; 
+}
+.workbench-graph-container-wrapper[big="false" i] {
+    height: 34vh; 
+}
+.workbench-graph-container-wrapper[furuta="true" i] {
+    height: 18vh; 
+}
+.workbench-graph-container-wrapper[big="true" i] {
+    height: 45vh; 
+}
+ .workbench-graph-container-wrapper::-webkit-scrollbar{
+   width: 10px;
+ }
+ .workbench-graph-container-wrapper::-webkit-scrollbar-track{
+   box-shadow: inset 0 0 2px grey; 
+ }
+ .workbench-graph-container-wrapper::-webkit-scrollbar-thumb{
+   background: #57AB59; 
+ }
+/********************* GRAPH CONTAINER *************************/
+.workbench-graph-container{
+transition: height 0.3s ease-in-out;
+width: 100%; 
+margin: 0 auto;
+}
+.workbench-graph-container[big="false" i]{
+    height: 28vh; 
+}
+.workbench-graph-container[furuta="true" i]{
+    height: 16vh; 
+}
+.workbench-graph-container[big="true" i]{
+    height: 41vh; 
+}
+/********************* GRAPH HEADER *************************/
+.workbench-graph-header{
+display:flex;
+width: 100%;
+flex-direction: column;
+position: relative;
+height: 4vh;
+padding: 0;
+background-color: transparent;
+margin: 0;
+}
+.workbench-graph-header[furuta="true" i]{
+height: 2.5vh;
+}
+.workbench-graph-header-txt{
+display:flex;
+width: auto;
+height: 100%;
+color: black;
+padding: 0;
+background-color: transparent;
+margin: 10px auto;
+font-size: 15px;
+font-family: inherit;
+font-weight: 400;
+text-align: center;
+}
+/********************* GRAPH HIDE BUTTON*************************/
+.workbench-graph-header-hide-button-wrapper {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    gap: 10px;
+    top: 30%;
+    right: 10px;
+    padding: 0.5vh 0;
+}
+.workbench-graph-header-hide-button-text {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 30%;
+  color: black;
+  padding: 0;
+  font-size: 12px;
+  font-family: inherit;
+  font-weight: 400;
+  text-align: center;
+}
+.workbench-graph-header-hide-button {
+  display: flex;
+  align-items: anchor-center;
+  justify-content: center;
+}
+.workbench-graph-header-hide-button-switch {
+  --secondary-container: #3a4b39;
+  --primary: #84da89;
+  font-size: 12px; /* Reduced font size (-30%) */
+  position: relative;
+  display: inline-block;
+  width: 2.6em; /* Scaled down */
+  height: 1.3em; /* Scaled down */
+}
+
+.workbench-graph-header-hide-button-switch input {
+  display: none;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.workbench-graph-header-hide-button-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #313033;
+  transition: .2s;
+  border-radius: 30px;
+}
+
+.workbench-graph-header-hide-button-slider:before {
+  position: absolute;
+  content: "";
+  height: 1em; /* Scaled down */
+  width: 1em; /* Scaled down */
+  border-radius: 20px;
+  left: 0.15em;
+  bottom: 0.15em;
+  background-color: #aeaaae;
+  transition: .4s;
+}
+input:checked + .workbench-graph-header-hide-button-slider::before {
+  background-color: var(--primary);
+  transform: translateX(1.2em); /* Corrected movement */
+}
+
+input:checked + .workbench-graph-header-hide-button-slider {
+  background-color: var(--secondary-container);
+}
+
+input:focus + .workbench-graph-cheader-hide-button-slider {
+  box-shadow: 0 0 1px var(--secondary-container);
+}
+/********************* GRAPH CONTROLS *************************/
+.workbench-graph-controls[hide="false" i] {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 6vh;
+    gap: 15px;
+    margin: 0 auto 10px auto;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+.workbench-graph-controls[furuta="true" i] {
+    margin: 0 auto 45px auto;
+}
+.workbench-graph-controls[hide="true" i] {
+    display: none;
+}
+/********************* GRAPH SIZE BUTTON*************************/
+.workbench-graph-controls-size-button-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 4%;
+    margin: 0 0 0 1.5vh;
+    height: 5vh;
+    padding: 0.5vh 0;
+}
+.workbench-graph-controls-size-button-text {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 30%;
+  color: black;
+  padding: 0;
+  font-size: 12px;
+  font-family: inherit;
+  font-weight: 400;
+  text-align: center;
+}
+.workbench-graph-controls-size-button {
+  display: flex;
+  justify-content: center;
+}
+.workbench-graph-controls-size-button-switch {
+  --secondary-container: #3a4b39;
+  --primary: #84da89;
+  font-size: 12px; /* Reduced font size (-30%) */
+  position: relative;
+  display: inline-block;
+  width: 2.6em; /* Scaled down */
+  height: 1.3em; /* Scaled down */
+}
+
+.workbench-graph-controls-size-button-switch input {
+  display: none;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.workbench-graph-controls-size-button-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #313033;
+  transition: .2s;
+  border-radius: 30px;
+}
+
+.workbench-graph-controls-size-button-slider:before {
+  position: absolute;
+  content: "";
+  height: 1em; /* Scaled down */
+  width: 1em; /* Scaled down */
+  border-radius: 20px;
+  left: 0.15em;
+  bottom: 0.15em;
+  background-color: #aeaaae;
+  transition: .4s;
+}
+
+input:checked + .workbench-graph-controls-size-button-slider::before {
+  background-color: var(--primary);
+  transform: translateX(1.2em); /* Corrected movement */
+}
+
+input:checked + .workbench-graph-controls-size-button-slider {
+  background-color: var(--secondary-container);
+}
+
+input:focus + .workbench-graph-controls-size-button-slider {
+  box-shadow: 0 0 1px var(--secondary-container);
+}
+
+/********************* GRAPH CONTROLS DIVIDER *************************/
+.workbench-graph-controls-divider{
+  display: flex;
+  width: 2px;
+  background-color: black;
+  height: 5vh;
+  margin: 0.5vh 0;
+}
+/********************* GRAPH CONTROLS LEGEND *************************/
+.workbench-graph-legend-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 7%;
+  height: 5vh;
+  padding: 0.5vh 0;
+}
+.workbench-graph-legend-text{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 30%;
+  color: black;
+  padding: 0;
+  font-size: 12px;
+  font-family: inherit;
+  font-weight: 400;
+  text-align: center;
+}
+.workbench-graph-controls-legend{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-direction: row;
+}
+/********************* GRAPH CONTROLS DATA BUTTONS *************************/
+.workbench-graph-axis-paramether-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 15%;
+  height: 5vh;
+  padding: 0.5vh 0;
+}
+.workbench-graph-axis-paramether-text{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 30%;
+  color: black;
+  padding: 0;
+  font-size: 12px;
+  font-family: inherit;
+  font-weight: 400;
+  text-align: center;
+}
+.workbench-graph-axis-paramether-wrapper-inside{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  width: 100%;
+}
+.workbench-graph-axis-paramether-color {
+  display: flex;
+  width: 39px;
+  cursor: pointer;
+  height: 2vh;
+  padding: 0;
+  background-color: rgb(128, 0, 128);
+  border-radius: 5px;
+}
+.workbench-graph-axis-paramether-color::-moz-color-swatch {
+  border: none;
+}
+
+.workbench-graph-axis-paramether-color::-webkit-color-swatch-wrapper {
+  padding: 0;
+  border-radius: 0;
+}
+
+.workbench-graph-axis-paramether-color::-webkit-color-swatch {
+  border: none;
+}
+.workbench-graph-axis-paramether-dropdown{
+  display: flex;
+  width: auto;
+  font-size: 12px;
+  padding: 0;
+  border: none;
+  background-color: #57AB59;
+  cursor: pointer;
+  font-weight: 750;
+  color: #FFF;
+  border-radius: 5px;
+  height: 2vh;
+}
+/********************* UPDATE BUTTONS *************************/
+.workbench-graph-axis-paramether-update-button{
+font-family: 'Noto Sans';
+font-size: 16px;
+line-height: 20px;
+padding: 5px 10px;
+color: white;
+cursor: pointer;
+width: auto;
+height: 4vh;
+text-align: center;
+border-radius: 5px;
+text-wrap-mode: nowrap;
+background-color: #F48220;
+border: none;
+transition: font-size 0.3s;
+margin: auto 0;
+}
+.workbench-graph-axis-paramether-update-button:hover {
+    font-size: 15px;
+}
+
+.workbench-graph-axis-paramether-update-button:active {
+    font-size: 10px;
+}
+.workbench-graph-color-setting-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 4%;
+    height: 5vh;
+    padding: 0.5vh 0;
+}
+.workbench-graph-color-text {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 30%;
+  color: black;
+  padding: 0;
+  font-size: 12px;
+  font-family: inherit;
+  font-weight: 400;
+  text-align: center;
+}
+.workbench-graph-color {
+  display: flex;
+  width: 39px;
+  height: 2vh;
+  cursor: pointer;
+  padding: 0;
+  background-color: rgb(128, 0, 128);
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.workbench-graph-color::-moz-color-swatch {
+  border: none;
+}
+
+.workbench-graph-color::-webkit-color-swatch-wrapper {
+  padding: 0;
+  border-radius: 0;
+}
+
+.workbench-graph-color-color::-webkit-color-swatch {
+  border: none;
+}
+/******************** First TRESHOLD **********************/
+@media only screen and (max-width: 1450px) {
+/********************* MAIN BODY *************************/
+.automation-shield-workbench-wrapper{
+display:flex;
+width: 100%;
+max-height: 91vh;
+padding: 0;
+margin: 0;
+flex-direction: column;
+overflow-y:scroll;
+overflow-x: hidden;
+}
+ .automation-shield-workbench-wrapper::-webkit-scrollbar{
+   width: 20px;
+ }
+ .automation-shield-workbench-wrapper::-webkit-scrollbar-track{
+   box-shadow: inset 0 0 2px grey; 
+ }
+ .automation-shield-workbench-wrapper::-webkit-scrollbar-thumb{
+   background: #57AB59; 
+ }
+.automation-shield-workbench{
+flex-direction: column;
+}
+/********************* SIDE PANEL *************************/
+.automation-shield-workbench-side-panel{
+width: 100%;
+height: 91vh;
+margin: 0 0 5vh 0;
+}
+/********************* TOOLTIP ICON *********************/
+.tooltipicon{
+    left: calc(50vw + 102px);
+}
+/********************* FORM IMG ************************/
+.side-panel-form-img-wrapper {
+    height: 270px;
+    width: auto;
+    top: 60vh;
+    left: 0;
+    right: 0;
+    bottom: unset;
+}
+/******************** TIP IMG *************************/
+.side-panel-form-manual-tip-img{
+width: 15vh;
+}
+/********************* MAIN PANEL *************************/
+.automation-shield-workbench-main-panel-wrapper{
+display:flex;
+width: 100%;
+max-height: none;
+overflow-y: auto;
+overflow-x: auto;
+}
+.automation-shield-workbench-main-panel{
+display:flex;
+width: 100%;
+min-height: 200vh;
+flex-grow: 1;
+padding: 0;
+flex-direction: column;
+}
+/********************** CONTROLS **********************/
+.workbench-graph-controls{
+padding: 1vw 0 !important;
+display: grid !important;
+height: auto !important;
+grid-template-columns: repeat(3, 1fr);
+}
+.workbench-graph-controls-divider{
+display: none !important;
+}
+/********************* GRAPH SIZE BUTTON*************************/
+.workbench-graph-controls-size-button-wrapper {
+    width: auto;
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 32px;
+}
+.workbench-graph-color-setting-wrapper {
+    width: auto;
+    border: 1px solid black;
+    border-radius: 32px;
+}
+.workbench-graph-legend-wrapper{
+  width: auto;
+  border: 1px solid black;
+  border-radius: 32px;
+}
+.workbench-graph-axis-paramether-wrapper{
+  width: auto;
+  border: 1px solid black;
+  border-radius: 32px;
+}
+.workbench-graph-axis-paramether-wrapper-inside,
+.workbench-graph-controls-legend {
+    justify-content: space-evenly;
+}
+.workbench-graph-axis-paramether-update-button[grid-pos="1"]{
+grid-area: 4 / 1 / 5 / 2;
+}
+.workbench-graph-axis-paramether-update-button[grid-pos="2"]{
+grid-area: 4 / 2 / 5 / 3;
+}
+.workbench-graph-axis-paramether-update-button[grid-pos="3"]{
+grid-area: 4 / 3 / 5 / 4;
+}
+
+
+}
+
+
+
+
+
