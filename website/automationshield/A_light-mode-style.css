@@ -1,0 +1,591 @@
+/********************* BODY *************************/
+body {
+    font-family: 'Noto Sans';
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    height: calc(var(--vh, 1vh) * 100);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+ /******************** COOKIE **********************/
+.cookie-backdrop{ 
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(6px);
+}
+.cookie-wrapper{ 
+  display: flex;
+  width: 500px;
+  height: auto;
+  padding: 30px 50px;
+  background-color: #FAFAFA;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  flex-direction: column;
+  margin: 62vh auto auto auto;
+  border-radius: 20px;
+  overflow-x: hidden;
+  -webkit-animation: fadeonresize 0.6s ease-in-out;
+}
+.cookie-header {
+  font-size: 20px;
+  color: black;
+  font-family: inherit;
+  font-weight: 600;
+  width: 500px;
+  height: auto;
+  text-align: center;
+}
+.cookie-text{
+  font-size: 15px;
+  color: #696969;
+  font-family: inherit;
+  font-weight: 400;
+  width: 500px;
+  height: auto;
+  margin: 10px auto 0 auto;
+  text-align: left;
+}
+.cookie-text2{
+  font-size: 15px;
+  color: #696969;
+  font-family: inherit;
+  font-weight: 400;
+  width: 500px;
+  height: auto;
+  margin: 10px auto 15px auto;
+  text-align: left;
+}
+.cookie-button-line{
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  gap: 100px;
+  margin: auto 0 0 0;
+}
+.cookie-accept-essential{
+  font-family: 'Noto Sans';
+  font-size: 16px;
+  line-height: 20px;
+  padding: 5px 0;
+  color: #696969;
+  width: 200px;
+  height: 34px;
+  text-align: center;
+  border-radius: 5px;
+  word-wrap: break-word;
+  word-break: break-word;
+  background-color: white;
+  cursor: pointer;
+  border: 2px solid #696969;
+  transition: font-size 0.3s;
+  margin: auto;
+}
+.cookie-accept-all{
+  font-family: 'Noto Sans';
+  font-size: 16px;
+  line-height: 20px;
+  padding: 5px 0;
+  color: white;
+  width: 200px;
+  height: 34px;
+  text-align: center;
+  border-radius: 5px;
+  word-wrap: break-word;
+  word-break: break-word;
+  background-color: #F48220;
+  cursor: pointer;
+  border: none;
+  transition: font-size 0.3s;
+  margin: auto;
+}
+.cookie-accept-essential:hover,
+.cookie-accept-all:hover {
+    font-size: 18px;
+}
+/********************* TOPBAR *************************/
+.topbar {
+    display: flex;
+    width: 99vw;
+    height: 50px;
+    padding: 5px 0.5vw;
+    background-color: #57AB59;
+    box-shadow: 0 0.4vw 1vw rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+/********************* TOPBAR LOGO *************************/
+.topbar-logo {
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.topbar-logo-img {
+    padding: 5px;
+    height: 50px;
+    width: auto;
+    display: block;
+}
+/********************* TOPBAR DIVIDER *************************/
+.topbar-divider{
+display: flex;
+width: 2px;
+background-color: white;
+height: 40px;
+margin: 5px 10px;
+}
+/********************* TOPBAR BUTTONS *************************/
+.topbar-link-wrapper{
+display: flex;
+width: auto;
+height: 40px;
+padding: 0 10px;
+margin: 0;
+align-items: center;
+flex-direction: row;
+background-color: transparent;
+gap: 40px;
+box-shadow: none;
+}
+.topbar-link-button {
+  font-size: 22px;
+  color: #e1e1e1;
+  font-family: inherit;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+  text-decoration: none;
+}
+
+.topbar-link-button:focus,
+.topbar-link-button:hover {
+  color: #fff;
+}
+
+.topbar-link-button:focus:after,
+.topbar-link-button:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.topbar-link-button:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+/********************* TOPBAR CONTROLS *************************/
+.topbar-controls-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: auto;
+    margin: 8px 20px 5px auto;
+    padding: 0;
+    gap: 20px;
+    justify-content: center;
+}
+/********************* TOPBAR LANGUAGE CONTROL*************************/
+.topbar-language-switch {
+    width: 59.5px;
+    height: 34px;
+    background-image: url('img/SlovakFlag.png');
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: background-image 0.3s;
+}
+/********************* TOPBAR LANGUAGE MENU*************************/
+.topbar-language-menu {
+    width: 59.5px;
+    top: 11px;
+    right: 25px;
+    z-index: 10;
+    height: auto;
+    display: none;
+    position: absolute;
+    border: none;
+    background-color: rgb(34, 50, 67);
+    border-radius: 5px;
+    padding: 5px 5px 0 5px;
+    transition: background-image 0.3s;
+}
+
+.topbar-language-menu-line {
+    width: 59.5px;
+    height: 34px;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.topbar-language-menu-line:hover {
+    transform: scale(1.1);
+}
+
+
+/********************* TOPBAR LIGHT/DARK SWITCH *************************/
+.topbar-light-mode-switch {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 59.5px;
+    height: 34px;
+}
+
+.topbar-light-mode-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.topbar-light-mode-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #223243;
+    border-radius: 30px;
+}
+.topbar-light-mode-slider:before {
+    position: absolute;
+    content: "";
+    height: 1.4em;
+    width: 1.4em;
+    border-radius: 20px;
+    left: 0.3em;
+    bottom: 0.3em;
+    background-color: #223243;
+    box-shadow: inset 2px -2px 0 1.8px #fff;
+}
+@keyframes anima1 {
+    0% {
+        transform: translateX(1.5em);
+    }
+    80% {
+        transform: translateX(-0.3em);
+    }
+    100% {
+        transform: translateX(0em);
+    }
+}
+.topbar-light-mode-switch input:checked + .topbar-light-mode-slider:before {
+    background-color: yellow;
+    box-shadow: none;
+    transform: translateX(1.5em);
+}
+@keyframes anima {
+    0% {
+        transform: translateX(0px)
+    }
+    80% {
+        transform: translateX(1.6em)
+    }
+    100% {
+        transform: translateX(1.4em)
+    }
+}
+/********************* FOOTBAR *************************/
+.footbar {
+    display: flex;
+    width: 100vw;
+    height: 15px;
+    padding: 3px 0;
+    background-color: #57AB59;
+    margin: auto 0 0 0;
+}
+.footbar-text {
+  font-size: 9px;
+  color: #FFF;
+  font-family: inherit;
+  font-weight: 400;
+  width: 20%;
+  height: 100%;
+  margin: 0 auto 0 40%;
+  border: none;
+  background: none;
+  text-align: center;
+}
+.cookie-footbar-button{
+  font-size: 9px;
+  color: #FFF;
+  font-family: inherit;
+  font-weight: 400;
+  width: 20%;
+  height: 100%;
+  cursor: pointer;
+  margin: 0 2% 0 18% ;
+  border: none;
+  background: none;
+  text-align: right;
+}
+
+
+/******************** First treshold **********************/
+@media only screen and (max-width: 1010px) {
+.topbar-divider {
+        display: none;
+    }
+
+    /********************* TOPBAR BUTTONS *************************/
+    .topbar-link-wrapper {
+        display: none; /* Hide by default */
+        position: fixed;
+        width: 30vw;
+        height: 100%;
+        padding: 20px 20px 20px 30px;
+        top: 60px;
+        right: 0;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        background-color: #57AB59;
+        border-radius: 0;
+        z-index: 100;
+        box-shadow: 0 0.4vw 1vw rgba(0, 0, 0, 0.4);
+    }
+
+    /* Show menu when checkbox is checked */
+    #topbar-hamburger-checkbox:checked ~ .topbar-link-wrapper {
+        display: block;
+    }
+    
+     .topbar-link-button {
+        font-size: 4vw;
+     }
+
+    /********************* TOPBAR HAMBURGER *************************/
+    .topbar-hamburger-toggle {
+        position: relative;
+        width: 45px;
+        height: 34px;
+        cursor: pointer;
+        display: flex;
+        margin: 8px 30px 5px auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px; 
+    }
+
+    .topbar-hamburger-bars {
+        width: 45px;
+        height: 4px;
+        background-color: #fff;
+        border-radius: 2px;
+        transition: 0.3s;
+    }
+
+    /* Animate the hamburger to an "X" */
+    #topbar-hamburger-checkbox:checked + .topbar-hamburger-toggle #topbar-hamburger-bar1 {
+        transform: rotate(45deg);
+        position: absolute;
+    }
+
+    #topbar-hamburger-checkbox:checked + .topbar-hamburger-toggle #topbar-hamburger-bar2 {
+        opacity: 0; 
+    }
+
+    #topbar-hamburger-checkbox:checked + .topbar-hamburger-toggle #topbar-hamburger-bar3 {
+        transform: rotate(-45deg);
+        position: absolute;
+    }
+    /************************** TOPBAR CONTROLS WRAPPER ****************/
+    .topbar-controls-wrapper {
+        margin: 8px 20px 0 0;
+    }
+    /******************** COOKIE **********************/
+.cookie-wrapper{ 
+  width: 70%;
+  padding: 4% 10%;
+  margin: auto;
+  border-radius: 20px;
+}
+.cookie-header {
+  font-size: 3vw;
+  width: 100%;
+}
+.cookie-text{
+  font-size: 2vw;
+  color: #696969;
+  width: 100%;
+  margin: 2% auto 0 auto;
+}
+.cookie-text2{
+  font-size: 2vw;
+  color: #696969;
+  width: 100%;
+  margin: 2% auto 3% auto;
+}
+.cookie-button-line{
+  width: 100%;
+  gap: 20%;
+  margin: auto 0 0 0;
+}
+.cookie-accept-essential{
+  font-family: 'Noto Sans';
+  font-size: 2vw;
+  line-height: 3vw;
+  border: 1px solid #696969;
+  padding: 1% 0;
+  width: 40%;
+  height: 6vw;
+}
+.cookie-accept-all{
+  font-family: 'Noto Sans';
+  font-size: 2vw;
+  line-height: 3vw;
+  padding: 1% 0;
+  width: 40%;
+  height: 6vw;
+}
+}
+/******************** Media Query for 760px **********************/
+@media only screen and (max-width: 760px) {
+  .topbar {
+    width: 99vw;
+    height: 13vw;
+    padding: 1.3vw 0.5vw;
+    position: relative;
+  }
+
+  .topbar-logo {
+    height: 13vw;
+  }
+
+  .topbar-logo-img {
+    padding: 0.6vw;
+    height: 11.7vw;
+  }
+
+  .topbar-divider {
+    width: 0.3vw;
+    background-color: white;
+    height: 10vw;
+    margin: 1.3vw;
+  }
+
+  .topbar-link-wrapper {
+    display: none;
+    position: fixed;
+    width: 30vw;
+    height: 100%;
+    padding: 2.6vw 3.9vw;
+    top: 15.6vw;
+    right: 0;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2.6vw;
+    background-color: #57AB59;
+    border-radius: 0;
+    z-index: 100;
+    box-shadow: 0 0.4vw 1vw rgba(0, 0, 0, 0.4);
+  }
+
+  .topbar-link-button {
+    font-size: 5vw;
+    padding: 1vw 0;
+  }
+
+  .topbar-controls-wrapper {
+    gap: 2.6vw;
+    position: absolute;
+    right: 0.7vw;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .topbar-language-switch,
+  .topbar-light-mode-switch {
+    width: 8vw;
+    height: 4.5vw;
+    border-radius: 4vw;
+  }
+  
+  .topbar-language-menu {
+    width: 8vw;
+    right: -1vw; /* Aligns it properly in small screen sizes */
+    top: 50%;
+}
+
+.topbar-language-menu-line {
+    width: 8vw;
+    height: 4.5vw;
+    border-radius: 0.5vw;
+}
+
+  .topbar-light-mode-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #223243;
+    transition: .4s;
+    border-radius: 4vw;
+  }
+
+  .topbar-light-mode-slider:before {
+    position: absolute;
+    content: "";
+    height: 3vw; 
+    width: 3vw; 
+    border-radius: 50%; 
+    left: 0vw; 
+    bottom: 0.8vw; 
+    background-color: #223243;
+    box-shadow: inset 2px -2px 0 1.8px #fff;
+  }
+
+  .topbar-light-mode-switch input:checked + .topbar-light-mode-slider:before {
+    background-color: yellow;
+    box-shadow: none;
+    transform: translateX(4.5vw); 
+  }
+
+  .topbar-hamburger-toggle {
+    width: 6.5vw;
+    height: 6.5vw;
+    margin: 0;
+    position: absolute;
+    right: 29vw;
+    top: 50%;
+    transform: translateY(-50%);
+    gap: 1.3vw;
+  }
+
+  .topbar-hamburger-bars {
+    width: 5.9vw;
+    height: 0.5vw;
+  }
+}
+
+

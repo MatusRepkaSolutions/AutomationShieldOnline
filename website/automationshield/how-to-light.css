@@ -1,0 +1,615 @@
+/******************** BODY **********************/
+.how-to-body{
+ display: block;
+ position: relative;
+ flex-grow: 1;
+ width: 100vw;
+ overflow-y: auto;
+ max-height: 100%; 
+ -webkit-animation: fadeonresize 0.6s ease-in-out;
+}
+.model-body::-webkit-scrollbar{
+   width: 1.042vw;
+ }
+.model-body::-webkit-scrollbar-track{
+   box-shadow: inset 0 0 0.104vw grey; 
+ }
+.model-body::-webkit-scrollbar-thumb{
+   background: #57AB59; 
+ }
+ /******************** TOP LINE **********************/
+.how-to-top-line{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+ /******************** SHARE BUTTON **********************/
+.share-button{
+display: flex;
+position: relative;
+flex-direction: row;
+margin: 0 0 auto auto;
+font-family: 'Noto Sans';
+font-size: 12px;
+line-height: 18px;
+padding: 2px 12px 2px 2px;
+color: white;
+width: auto;
+height: 24px;
+text-align: center;
+border-radius: 5px;
+word-wrap: break-word;
+word-break: break-word;
+background-color: #F48220;
+border: none;
+transition: font-size 0.3s;
+}
+.share-button[videobutton]{
+margin: 0 auto auto auto;
+}
+
+.share-button:hover {
+    color: yellow;
+    cursor: pointer;
+}
+.share-button:hover svg{
+    fill: yellow;
+}
+
+.share-button:active {
+    background-color: #df9f67;
+}
+.share-button svg {
+  fill: #fff;
+  width: 17px;
+  height: 17px;
+  margin: auto 0 auto 3px;
+}
+.share-button p {
+  height: 24px;
+  margin: auto auto auto 5px;
+}
+
+.share-copied[show="false" i] {
+    display: none;
+}
+.share-copied[show="true" i] {
+    display: block;
+    white-space: nowrap;
+    position: absolute;
+    width: 100px;
+    color: black;
+    top: -17px;
+    left: -12px;
+}
+
+ /******************** PAGE HEADER **********************/
+.how-to-page-header{
+ display: flex;
+ align-self: flex-start;
+ width: fit-content;
+ height: auto;
+ padding: 0;
+ margin: 30px auto 0 auto;
+font-size: 30px;
+line-height: 33px;
+color: black;
+font-weight: bold;
+}
+ 
+ /******************** MAIN DIV **********************/
+.how-to-wrapper{
+ display: flex;
+ flex-direction: column;
+ width: 90%;
+ min-height: 1000px;
+ padding: 0;
+ margin: 30px 5%;
+ overflow: hidden;
+ background-color: #FAFAFA;
+ box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+ border-radius: 20px;
+}
+/******************** buttons wrapper **********************/
+.how-to-tab-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 3.49vw;
+}
+.how-to-tab-button-wrapper-online {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 3.49vw;
+}
+
+/******************** buttons **********************/
+.how-to-tab-button {
+    display: flex;
+    flex: 1;
+    width: auto;
+    padding: 10px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: background 0.3s, color 0.3s;
+    position: relative;
+    font-family: 'Noto Sans';
+    font-size: 1.042vw;
+    line-height: 1.25vw;
+    padding: 0.521vw 0;
+    height: 2.292vw;
+    word-break: break-word;
+    color: #F48220;
+    cursor: pointer;
+    border: none;
+    margin: 0 auto;
+    border-bottom: dotted 1px #F48220;
+}
+.how-to-tab-button-divider {
+    display: flex;
+    width: 1px;
+    padding: 0;
+    background-color: black;
+    height: 70%;
+    margin: auto 0;
+}
+
+.how-to-tab-button:has(input:checked) {
+    background-color: rgba(87, 171, 89, 0.15);
+    border-bottom: solid 3px #F48220;
+}
+.how-to-tab-button:hover {
+    background-color: rgba(87, 171, 89, 0.08);
+}
+
+.how-to-tab-button-online {
+    display: flex;
+    flex: 1;
+    width: auto;
+    padding: 10px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: background 0.3s, color 0.3s;
+    position: relative;
+    font-family: 'Noto Sans';
+    font-size: 1.042vw;
+    line-height: 1.25vw;
+    padding: 0.521vw 0;
+    height: 2.292vw;
+    word-break: break-word;
+    color: #F48220;
+    cursor: pointer;
+    border: none;
+    margin: 0 auto;
+    border-bottom: dotted 1px #F48220;
+}
+.how-to-tab-button-divider-online {
+    display: flex;
+    width: 1px;
+    padding: 0;
+    background-color: black;
+    height: 70%;
+    margin: auto 0;
+}
+
+.how-to-tab-button-online:has(input:checked) {
+    background-color: rgba(87, 171, 89, 0.15);
+    border-bottom: solid 3px #F48220;
+}
+.how-to-tab-button-online:hover {
+    background-color: rgba(87, 171, 89, 0.08);
+}
+/******************** GUIDE WRAPPER **********************/
+.how-to-content-wrapper{
+    display: none;
+}
+
+.how-to-content-wrapper[show="true" i]{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 30px 5%;
+}
+.how-to-content-wrapper-online{
+    display: none;
+}
+
+.how-to-content-wrapper-online[show="true" i]{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+}
+/******************** GUIDE PART **********************/
+.how-to-line-part {
+    width: auto;
+    font-family: 'Noto Sans';
+    font-size: 20px;
+    line-height: 24px;
+    color: black;
+    font-weight: 600;
+    border: none;
+    margin: 0 auto 0 0;
+    padding: 0 0 15px 0;
+}
+.how-to-line-part-img {
+    width: auto;
+    font-family: 'Noto Sans';
+    font-size: 20px;
+    line-height: 24px;
+    color: black;
+    font-weight: 600;
+    border: none;
+    margin: 0 auto 0 0;
+    padding: 0;
+}
+/******************** GUIDE TEXT WRAPPER FULL LINE **********************/
+.how-to-line-text-wrapper-full-line {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+}
+.how-to-line-text-list-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 0 15px 0;
+}
+/******************** GUIDE TEXT LINE **********************/
+.how-to-line-text {
+    width: 100%;
+    font-family: 'Noto Sans';
+    font-size: 16px;
+    line-height: 20px;
+    height: auto;
+    color: black;
+    font-weight: 200;
+    border: none;
+    margin: 0 auto 0 0;
+    padding: 0 0 15px 0;
+}
+.how-to-line-text-list {
+    width: 100%;
+    font-family: 'Noto Sans';
+    font-size: 16px;
+    line-height: 20px;
+    height: auto;
+    color: black;
+    font-weight: 200;
+    border: none;
+    margin: 0 auto 0 15px;
+    padding: 0;
+}
+.how-to-line-text-list-link {
+    width: 100%;
+    font-family: 'Noto Sans';
+    font-size: 16px;
+    line-height: 20px;
+    height: auto;
+    font-weight: 200;
+    border: none;
+    margin: 0 auto 0 15px;
+    padding: 0;
+}
+/******************** GUIDE TEXT LINK HREF**********************/
+.how-to-line-text-link {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto 0 0;
+    padding: 0 0 15px 0;
+}
+.how-to-line-text-link-left {
+    width: auto;
+    font-family: 'Noto Sans';
+    font-size: 16px;
+    line-height: 20px;
+    height: auto;
+    color: black;
+    font-weight: 200;
+    border: none;
+    margin: 0;
+}
+.how-to-line-text-link-right{
+    width: auto;
+    font-family: 'Noto Sans';
+    font-size: 16px;
+    line-height: 20px;
+    height: auto;
+    font-weight: 200;
+    border: none;
+    margin: 0 auto 0 2%;
+}
+/******************** GUIDE IMG **********************/
+.how-to-line-img-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0 0 15px 0;
+}
+.how-to-line-img-wrapper img{
+    margin: 0 auto 0 0;
+}
+/* Skupina: 70% šírka */
+.how-to-line-img-wrapper img[name="arduino1"],
+.how-to-line-img-wrapper img[name="arduino2"],
+.how-to-line-img-wrapper img[name="library3"],
+.how-to-line-img-wrapper img[name="online4"],
+.how-to-line-img-wrapper img[name="mpc1"],
+.how-to-line-img-wrapper img[name="mpc5"],
+.how-to-line-img-wrapper img[name="mpc6"],
+.how-to-line-img-wrapper img[name="debug2"]  {
+    width: 70%;
+}
+
+/* Skupina: 100% šírka */
+.how-to-line-img-wrapper img[name="arduino4"],
+.how-to-line-img-wrapper img[name="library1"],
+.how-to-line-img-wrapper img[name="library5"],
+.how-to-line-img-wrapper img[name="password3"],
+.how-to-line-img-wrapper img[name="getdata1"],
+.how-to-line-img-wrapper img[name="online1"],
+.how-to-line-img-wrapper img[name="online2"],
+.how-to-line-img-wrapper img[name="online5"],
+.how-to-line-img-wrapper img[name="online6"],
+.how-to-line-img-wrapper img[name="online7"],
+.how-to-line-img-wrapper img[name="online11"],
+.how-to-line-img-wrapper img[name="online8"],
+.how-to-line-img-wrapper img[name="online9"],
+.how-to-line-img-wrapper img[name="online10"],
+.how-to-line-img-wrapper img[name="offline3"],
+.how-to-line-img-wrapper img[name="mpc2"],
+.how-to-line-img-wrapper img[name="gui7"],
+.how-to-line-img-wrapper img[name="gui5"],
+.how-to-line-img-wrapper img[name="debug1"]    {
+    width: 75%;
+}
+
+/* Skupina: 80% šírka */
+.how-to-line-img-wrapper img[name="arduino5"] {
+    width: 55%;
+}
+
+/* Skupina: 60% šírka */
+.how-to-line-img-wrapper img[name="library4"],
+.how-to-line-img-wrapper img[name="getdata2"],
+.how-to-line-img-wrapper img[name="mpc4"],
+.how-to-line-img-wrapper img[name="mpc7"],
+.how-to-line-img-wrapper img[name="gui3"]   {
+    width: 45%;
+}
+
+/* Skupina: 40% šírka */
+.how-to-line-img-wrapper img[name="library2"],
+.how-to-line-img-wrapper img[name="online3"],
+.how-to-line-img-wrapper img[name="offline4"],
+.how-to-line-img-wrapper img[name="mpc3"],
+.how-to-line-img-wrapper img[name="offline1"],
+.how-to-line-img-wrapper img[name="gui1"] {
+    width: 30%;
+}
+
+/* Skupina: 35% šírka */
+.how-to-line-img-wrapper img[name="library6"],
+.how-to-line-img-wrapper img[name="offline2"],
+.how-to-line-img-wrapper img[name="gui6"] {
+    width: 20%;
+}
+
+/******************** PART DIVIDER **********************/
+.part-divider {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin: 0 0 40px 0;
+}
+
+/******************** First TRESHOLD **********************/
+@media only screen and (max-width: 1200px) {
+.how-to-body{
+ -webkit-animation: fadeonresize1 0.6s ease-in-out;
+}
+/******************** PAGE HEADER **********************/
+.how-to-page-header{
+font-size: 25px;
+line-height: 28px;
+}
+/******************** MAIN DIV **********************/
+.how-to-wrapper{
+ display: flex;
+ flex-direction: column;
+ margin: 30px auto;
+ width: 1080px;
+ min-height: 1000px;
+}
+/******************** buttons wrapper **********************/
+.how-to-tab-button-wrapper {
+    height: 41px;
+}
+.how-to-tab-button-wrapper-online {
+    height: auto;
+}
+
+/******************** buttons **********************/
+.how-to-tab-button {
+    padding: 10px;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 6px 0;
+    height: 27px;
+}
+.how-to-tab-button-online {
+    padding: 10px;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 6px 0;
+    height: 27px;
+}
+.how-to-tab-button-divider {
+    display: flex;
+    width: 1px;
+    padding: 0;
+    background-color: black;
+    height: 70%;
+    margin: auto 0;
+}
+/******************** GUIDE IMG **********************/
+/* Obrázky so 100% šírkou */
+  .how-to-line-img-wrapper img[name="arduino1"],
+  .how-to-line-img-wrapper img[name="arduino2"],
+  .how-to-line-img-wrapper img[name="arduino4"],
+  .how-to-line-img-wrapper img[name="arduino5"],
+  .how-to-line-img-wrapper img[name="library1"],
+  .how-to-line-img-wrapper img[name="library2"],
+  .how-to-line-img-wrapper img[name="library3"],
+  .how-to-line-img-wrapper img[name="library4"],
+  .how-to-line-img-wrapper img[name="library5"],
+  .how-to-line-img-wrapper img[name="getdata2"],
+  .how-to-line-img-wrapper img[name="online4"],
+  .how-to-line-img-wrapper img[name="offline1"],
+  .how-to-line-img-wrapper img[name="mpc1"],
+  .how-to-line-img-wrapper img[name="mpc2"],
+  .how-to-line-img-wrapper img[name="mpc4"],
+  .how-to-line-img-wrapper img[name="mpc5"],
+  .how-to-line-img-wrapper img[name="mpc6"],
+  .how-to-line-img-wrapper img[name="mpc7"],
+  .how-to-line-img-wrapper img[name="debug2"] {
+    width: 100%;
+  }
+
+  /* Obrázok s 80% šírkou */
+  .how-to-line-img-wrapper img[name="library6"],
+  .how-to-line-img-wrapper img[name="password1"],
+  .how-to-line-img-wrapper img[name="password2"],
+  .how-to-line-img-wrapper img[name="offline4"],
+.how-to-line-img-wrapper img[name="gui3"],
+.how-to-line-img-wrapper img[name="gui1"],
+.how-to-line-img-wrapper img[name="gui6"] {
+    width: 80%;
+  }
+
+  .how-to-line-img-wrapper img[name="online3"],
+  .how-to-line-img-wrapper img[name="offline2"],
+  .how-to-line-img-wrapper img[name="mpc3"],
+.how-to-line-img-wrapper img[name="gui2"],
+.how-to-line-img-wrapper img[name="gui4"] {
+    width: 60%;
+  }
+}
+
+/******************** SECOND TRESHOLD **********************/
+@media only screen and (max-width: 1079px) {
+.how-to-body{
+ -webkit-animation: fadeonresize2 0.6s ease-in-out;
+}
+/******************** PAGE HEADER **********************/
+.how-to-page-header{
+font-size: 15px;
+line-height: 18px;
+}
+/******************** MAIN DIV **********************/
+.how-to-wrapper{
+ display: flex;
+ flex-direction: column;
+ margin: 30px 2.5%;
+ width: 95%;
+ min-height: 1000px;
+}
+/******************** buttons wrapper **********************/
+.how-to-tab-button-wrapper {
+    height: 3.417vw;
+}
+
+/******************** buttons **********************/
+.how-to-tab-button {
+    padding: 10px;
+    font-size: 1vw;
+    line-height: 1.25vw;
+    padding: 0.5vw 0;
+    height: 2.25vw;
+}
+.how-to-tab-button-online {
+    padding: 10px;
+    font-size: 1vw;
+    line-height: 1.25vw;
+    padding: 0.5vw 0;
+    height: 2.25vw;
+}
+.how-to-tab-button-divider {
+    display: none;
+}
+
+
+}
+/****************** ANIMATIONS ************************/
+@-webkit-keyframes fadeonresize {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeonresize1 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadeonresize2 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+/******************** Third treshold **********************/
+@media only screen and (max-width: 1010px) {
+/******************** PAGE HEADER **********************/
+.how-to-page-header{
+ margin: 10px auto 0 auto;
+font-size: 5vw;
+line-height: 6vw;
+}
+/******************** MAIN DIV **********************/
+.how-to-wrapper{
+ border-radius: 5px;
+}
+/******************** buttons wrapper **********************/
+.how-to-tab-button-wrapper {
+    height: auto;
+}
+
+/******************** buttons **********************/
+.how-to-tab-button {
+  font-size: 2vw;
+  line-height: 2.2vw;
+  padding: 2vw 0;
+  height: 4vw;
+}
+.how-to-tab-button-online {
+  font-size: 2vw;
+  line-height: 2.2vw;
+  padding: 2vw 0;
+  height: 4vw;
+}
+
+.how-to-tab-button:has(input:checked) {
+    border-bottom: solid 2px #F48220;
+}
+}

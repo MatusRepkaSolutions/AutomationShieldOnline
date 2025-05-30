@@ -1,0 +1,1539 @@
+{
+  "txtAboutUs": {
+    "svk": "O nás",
+    "eng": "About us",
+    "ukr": "Про нас"
+  },
+  "txtGitHub": {
+    "svk": "GitHub",
+    "eng": "GitHub",
+    "ukr": "GitHub"
+  },
+  "txtGuide": {
+    "svk": "Nápoveda",
+    "eng": "Guide",
+    "ukr": "Посібник"
+  },
+  "txtSupportedModels": {
+    "svk": "Modely",
+    "eng": "Models",
+    "ukr": "Моделі"
+  },
+  "txtName": {
+    "svk": "Názov",
+    "eng": "Name",
+    "ukr": "Назва"
+  },
+  "txtModel": {
+    "svk": "Model",
+    "eng": "Model",
+    "ukr": "Модель"
+  },
+  "txtTime": {
+    "svk": "Čas",
+    "eng": "Time",
+    "ukr": "Час"
+  },
+  "txtRefresh": {
+    "svk": "Obnoviť ↻",
+    "eng": "Refresh ↻",
+    "ukr": "Оновити ↻"
+  },
+  "txtIP": {
+    "svk": "IP Adresa",
+    "eng": "IP Address",
+    "ukr": "IP адреса"
+  },
+  "txtMAC": {
+    "svk": "MAC Adresa",
+    "eng": "MAC Address",
+    "ukr": "MAC адреса"
+  },
+  "txtConnect": {
+    "svk": "Pripojiť",
+    "eng": "Connect",
+    "ukr": "Підключити"
+  },
+  "txtAvailable": {
+    "svk": "Žiadne dáta k dispozícií. Automatická obnova každých 15 sekúnd.",
+    "eng": "No data available. Auto-refresh every 15 seconds.",
+    "ukr": "Дані відсутні. Автоматичне оновлення кожні 15 секунд."
+  },
+  "txtPassword": {
+    "svk": "Heslo",
+    "eng": "Password",
+    "ukr": "Пароль"
+  },
+  "txtPasswordWhat": {
+    "svk": "Neviem heslo",
+    "eng": "Don't know password",
+    "ukr": "Не знаю пароль"
+  },
+  "txtLoginTitle": {
+    "svk": "Prihlásenie",
+    "eng": "Login",
+    "ukr": "Вхід"
+  },
+  "txtStart": {
+    "svk": "Štart",
+    "eng": "Start",
+    "ukr": "Старт"
+  },
+  "txtPID": {
+    "svk": "PID",
+    "eng": "PID",
+    "ukr": "PID"
+  },
+  "txtEMPC": {
+    "svk": "MPC",
+    "eng": "MPC",
+    "ukr": "MPC"
+  },
+  "txtIdentification": {
+    "svk": "Identifikácia",
+    "eng": "Identification",
+    "ukr": "Ідентифікація"
+  },
+  "txtLQI": {
+    "svk": "LQ",
+    "eng": "LQ",
+    "ukr": "LQ"
+  },
+  "txtLQIman": {
+    "svk": "LQ-manuálne",
+    "eng": "LQ-manual",
+    "ukr": "LQ-ручний"
+  },
+  "txtEMPCman": {
+    "svk": "MPC-manuálne",
+    "eng": "MPC-manual",
+    "ukr": "LQ-ручний"
+  },
+  "txtOpenLoop": {
+    "svk": "Otvorená slučka",
+    "eng": "Open Loop",
+    "ukr": "Відкрита петля"
+  },
+  "txtWorkbench": {
+    "svk": "Pracovný stôl",
+    "eng": "Workbench",
+    "ukr": "Верстак"
+  },
+  "txtKp": {
+    "svk": "Kp:",
+    "eng": "Kp:",
+    "ukr": "Кp:"
+  },
+  "txtTi": {
+    "svk": "Ti:",
+    "eng": "Ti:",
+    "ukr": "Ti:"
+  },
+  "txtTd": {
+    "svk": "Td:",
+    "eng": "Td:",
+    "ukr": "Td:"
+  },
+  "txtReferenceAngle": {
+    "svk": "Referenčný uhol (°):",
+    "eng": "Reference Angle (°):",
+    "ukr": "Референсний кут (°):"
+  },
+  "txtExpLength": {
+    "svk": "Dĺžka experimentu (s):",
+    "eng": "Experiment Length (s):",
+    "ukr": "Тривалість експерименту (с):"
+  },
+  "txtPerLength": {
+    "svk": "Dĺžka periódy (s):",
+    "eng": "Period length (s):",
+    "ukr": "Тривалість періоду (с):"
+  },
+  "txtStateGraph": {
+    "svk": "Priebeh výstupu",
+    "eng": "Output Progress",
+    "ukr": "Перебіг виходу"
+  },
+  "txtActionGraph": {
+    "svk": "Priebeh vstupu",
+    "eng": "Input Progress",
+    "ukr": "Перебіг входу"
+  },
+  "txtControls": {
+    "svk": "Skryť nastavenia",
+    "eng": "Hide settings",
+    "ukr": "Приховати налаштування"
+  },
+  "txtDetail": {
+    "svk": "Rolovanie",
+    "eng": "Rolling",
+    "ukr": "Прокатка"
+  },
+  "txtLegend": {
+    "svk": "Legenda",
+    "eng": "Legend",
+    "ukr": "Легенда"
+  },
+  "txtsetU": {
+    "svk": "Nastavenia u",
+    "eng": "Settings u",
+    "ukr": "Налаштування u"
+  },
+  "txtsetY": {
+    "svk": "Nastavenia y",
+    "eng": "Settings y",
+    "ukr": "Налаштування y"
+  },
+  "txtsetR": {
+    "svk": "Nastavenia r",
+    "eng": "Settings r",
+    "ukr": "Налаштування r"
+  },
+  "txtSet": {
+    "svk": "Nastaviť",
+    "eng": "Set",
+    "ukr": "Встановити"
+  },
+  "txtGraph": {
+    "svk": "Graf",
+    "eng": "Graph",
+    "ukr": "Графік"
+  },
+  "txtAxes": {
+    "svk": "Osi",
+    "eng": "Axes",
+    "ukr": "Осі"
+  },
+  "txtGrid": {
+    "svk": "Mriežka",
+    "eng": "Grid",
+    "ukr": "Сітка"
+  },
+  "txtMotorPower": {
+    "svk": "Napätie motora (A):",
+    "eng": "Motor voltage (A):",
+    "ukr": "Напруга мотора (A):"
+  },
+  "txtAxisAngle": {
+    "svk": "Uhol (%)",
+    "eng": "Angle (%)",
+    "ukr": "Кут (%)"
+  },
+  "txtAxisPower": {
+    "svk": "Výkon (V)",
+    "eng": "Power (V)",
+    "ukr": "Потужність (V)"
+  },
+  "txtAxisTime": {
+    "svk": "Čas (s)",
+    "eng": "Time (s)",
+    "ukr": "Час (s)"
+  },
+  "txtResetZoom": {
+    "svk": "Reset Zoom",
+    "eng": "Reset Zoom",
+    "ukr": "Скинути масштаб"
+  },
+  "txtLQgain": {
+    "svk": "LQ zosilnenie",
+    "eng": "LQ gain",
+    "ukr": "LQ підсилення"
+  },
+  "txttooltipKp": {
+    "svk": "Proporcionálna zložka PID regulátora P. Nesmie byť 0.",
+    "eng": "Proportional component of the PID controller (P). Must not be 0.",
+    "ukr": "Пропорційна складова PID-регулятора (P). Не повинна бути 0."
+  },
+  "txttooltipTi": {
+    "svk": "Integračná zložka PID regulátora I. Nesmie byť 0.",
+    "eng": "Integral component of the PID controller (I). Must not be 0.",
+    "ukr": "Інтегральна складова PID-регулятора (I). Не повинна бути 0."
+  },
+  "txttooltipTd": {
+    "svk": "Derivačná zložka PID regulátora D. Nesmie byť 0.",
+    "eng": "Derivative component of the PID controller (D). Must not be 0.",
+    "ukr": "Диференційна складова PID-регулятора (D). Не повинна бути 0."
+  },
+  "txttooltipReferenceAngle": {
+    "svk": "Vektor referenčného uhla v stupňoch. 1 až 6 čísel. Desatinné miesto oddelené bodkou, nové číslo oddelené čiarkov. Napr. 15,20.5,30",
+    "eng": "Reference angle vector in degrees. 1 to 6 numbers. Use a dot for decimals and commas to separate numbers. E.g., 15,20.5,30",
+    "ukr": "Вектор еталонного кута в градусах. 1-6 чисел. Десятковий роздільник - крапка, числа розділені комами. Наприклад, 15,20.5,30"
+  },
+  "txttooltipPerLength": {
+  "svk": "Doba trvania jedného referenčného uhla v sekundách. Len jedno celé číslo číslo (nie desatinné) ktoré platí pre všetky uhly.",
+  "eng": "Duration of a single reference angle in seconds. Only a whole number (no decimals) that applies to all angles.",
+  "ukr": "Тривалість одного еталонного кута в секундах. Лише ціле число (без десяткових) для всіх кутів."
+},
+  "txttooltipMotorPower": {
+    "svk": "Vektor napätia privádzaného na motor v ampéroch. 1 až 6 čísel. Desatinné miesto oddelené bodkou, nové číslo oddelené čiarkou. Napr. 4,6.5,8.",
+    "eng": "Vector of voltage supplied to the motor in amperes. 1 to 6 numbers. Decimal point separated by a dot, new number separated by a comma. E.g. 4,6.5,8.",
+    "ukr": "Вектор напруги, що подається на мотор, у амперах. Від 1 до 6 чисел. Десяткова крапка розділена точкою, нове число відокремлене комою. Наприклад, 4,6.5,8."
+  },
+  "txttooltipLQgain": {
+    "svk": "Vektor zosilnenia pre LQI regulátor. Musia byť 3 čísla. Desatinné miesto oddelené bodkou, nové číslo oddelené čiarkou. Napr. -0.4,1.5,2.8.",
+    "eng": "Vector of gain for the LQI controller. Must be 3 numbers. Decimal point separated by a dot, new number separated by a comma. E.g. -0.4,1.5,2.8.",
+    "ukr": "Вектор підсилення для регулятора LQI. Має бути 3 числа. Десяткова крапка розділена точкою, нове число відокремлене комою. Наприклад, -0.4,1.5,2.8."
+  },
+  "txttooltipExpLength": {
+  "svk": "Celková doba trvania experimentu v sekundách. Len jedno celé číslo číslo (nie desatinné).",
+  "eng": "Total experiment duration in seconds. Only a whole number (no decimals).",
+  "ukr": "Загальна тривалість експерименту в секундах. Лише ціле число (без десяткових)."
+},
+  "txttooltipDetail": {
+    "svk": "Detail OFF: vykresluje sa celá doba experimentu. Detail ON: Vykresluje sa len posledných 5 sekúnd.",
+    "eng": "Detail OFF: Displays the entire experiment duration. Detail ON: Displays only the last 5 seconds.",
+    "ukr": "Деталь ВИМК: показує всю тривалість експерименту. Деталь УВМК: показує лише останні 5 секунд."
+  },
+  "txttooltipLegend": {
+    "svk": "Kliknutím na štvorček legendy sa dané dáta skryjú.",
+    "eng": "Clicking on a legend square hides the corresponding data.",
+    "ukr": "Клацанням по квадрату легенди можна приховати відповідні дані."
+  },
+  "txttooltipsetY": {
+    "svk": "Nastavenie sa zobrazí po stlačení tlačidla Nastaviť.",
+    "eng": "The setting appears after pressing the Set button.",
+    "ukr": "Налаштування з'явиться після натискання кнопки Налаштувати."
+  },
+  "txttooltipsetR": {
+    "svk": "Nastavenie sa zobrazí po stlačení tlačidla Nastaviť. V prípade, že je vykreslený experiment bez referencie, tieto nastavenia nič nerobia.",
+    "eng": "The setting appears after pressing the Set button. If the experiment is displayed without a reference, these settings do nothing.",
+    "ukr": "Налаштування з'явиться після натискання кнопки Налаштувати. Якщо експеримент відображається без референції, ці налаштування нічого не роблять."
+  },
+  "txttooltipsetU": {
+    "svk": "Nastavenie sa zobrazí po stlačení tlačidla Nastaviť.",
+    "eng": "The setting appears after pressing the Set button.",
+    "ukr": "Налаштування з'явиться після натискання кнопки Налаштувати."
+  },
+  "txttooltipGraph": {
+    "svk": "Nastavenie farby pozadia grafu. Nastavenie sa zobrazí po stlačení tlačidla Nastaviť.",
+    "eng": "Sets the graph background color. The setting appears after pressing the Set button.",
+    "ukr": "Налаштування кольору фону графіка. Налаштування з'явиться після натискання кнопки Налаштувати."
+  },
+  "txttooltipControls": {
+    "svk": "Zobrazenie/Skrytie panelu nastavení grafu.",
+    "eng": "Show/Hide the graph settings panel.",
+    "ukr": "Показати/Приховати панель налаштувань графіка."
+  },
+  "txttooltipAxes": {
+    "svk": "Nastavenie farby hodnôt na osiach x a y. Nastavenie sa zobrazí po stlačení tlačidla Nastaviť.",
+    "eng": "Adjusts the color of the values on the x and y axes. The setting appears after pressing the Set button.",
+    "ukr": "Налаштування кольору значень на осях x і y. Налаштування з'явиться після натискання кнопки Налаштувати."
+  },
+  "txttooltipGrid": {
+    "svk": "Nastavenie farby gridu grafu. Nastavenie sa zobrazí po stlačení tlačidla Nastaviť.",
+    "eng": "Adjusts the color of the graph grid. The setting appears after pressing the Set button.",
+    "ukr": "Налаштування кольору сітки графіка. Налаштування з'явиться після натискання кнопки Налаштувати."
+  },
+  "txttooltipSTART": {
+    "svk": "Po stlačení tlačidla sa dáta z daného experimentu nahrajú na Shield a spustí sa experiment. Počas trvania experimentu je možné stlačiť tlačidlo Štart znovu, nič to však nespraví.",
+    "eng": "When the button is pressed, the data from the selected experiment is uploaded to the Shield, and the experiment starts. Pressing the Start button again during the experiment will have no effect.",
+    "ukr": "При натисканні кнопки дані вибраного експерименту завантажуються на Shield, і експеримент починається. Повторне натискання кнопки «Старт» під час експерименту не матиме жодного ефекту."
+  },
+  "txtAlertDataSuccess": {
+    "svk": "Experiment úspešne nahraný. Prosím počkajte na ukončenie experimentu.",
+    "eng": "Experiment successfully uploaded. Please wait for the experiment to finish.",
+    "ukr": "Експеримент успішно завантажено. Будь ласка, зачекайте на завершення експерименту."
+  },
+  "txtAlertSomethingWrong": {
+    "svk": "Niečo je zle. Skúste to znovu.",
+    "eng": "Something went wrong. Try again.",
+    "ukr": "Щось пішло не так. Спробуйте ще раз."
+  },
+  "txtOpenLoopTip": {
+    "svk": "Po odznení zvukového signálu môžete ovládať referenciu potenciometrom na shielde",
+    "eng": "After the sound signal fades, you can control the reference using the potentiometer on the shield.",
+    "ukr": "Після припинення звукового сигналу можна контролювати еталон за допомогою потенціометра на щитку."
+  },
+  "txtGraphNoData": {
+    "svk": "Graf nedostáva dáta z nového experimentu. Skontrolujte káble a AutomationShieldMonitor.exe",
+    "eng": "The graph is not receiving data from the new experiment. Check the cables and AutomationShieldMonitor.exe",
+    "ukr": "Графік не отримує дані з нового експерименту. Перевірте кабелі та AutomationShieldMonitor.exe"
+  },
+  "txtShieldDisconnected": {
+    "svk": "Spojenie s Arduinom bolo prerušené.",
+    "eng": "Connection to Arduino was lost.",
+    "ukr": "З'єднання з Arduino було перервано."
+  },
+  "txtReturnHome": {
+    "svk": "Domov",
+    "eng": "Home",
+    "ukr": "Додому"
+  },
+  "txtGraphDefault": {
+    "svk": "Default",
+    "eng": "Default",
+    "ukr": "Типовий"
+  },
+  "txtWhatIsPID": {
+    "svk": "Čo je to PID?",
+    "eng": "What is PID?",
+    "ukr": "Що таке PID?"
+  },
+  "txtWhatIsLQI": {
+    "svk": "Čo je to LQ?",
+    "eng": "What is LQI?",
+    "ukr": "Що таке LQI?"
+  },
+  "txtWhatIsMPC": {
+    "svk": "Čo je to MPC?",
+    "eng": "What is MPC?",
+    "ukr": "Що таке MPC?"
+  },
+  "txtWhatIsIdentification": {
+    "svk": "Na čo slúži identifikácia?",
+    "eng": "What is identification used for?",
+    "ukr": "Для чого використовується ідентифікація?"
+  },
+  "txtModelHeader": {
+    "svk": "Podporované AutomationShield modely",
+    "eng": "Supported AutomationShield Models",
+    "ukr": "Підтримувані AutomationShield моделі"
+  },
+  "txtDownload": {
+    "svk": "Stiahnúť",
+    "eng": "Download",
+    "ukr": "Завантажити"
+  },
+  "txtIdeCode": {
+    "svk": "Arduino IDE kód",
+    "eng": "Arduino IDE Code",
+    "ukr": "Код для Arduino IDE"
+  },
+  "txtHowToArduino": {
+    "svk": "1. Arduino IDE",
+    "eng": "1. Arduino IDE",
+    "ukr": "1. Arduino IDE"
+  },
+  "txtHowToLibrary": {
+    "svk": "2. Knižnica AutomationShield",
+    "eng": "2. AutomationShield library",
+    "ukr": "2. Бібліотека AutomationShield"
+  },
+  "txtHowToAutomationShield": {
+    "svk": "3. AutomationShield",
+    "eng": "3. AutomationShield",
+    "ukr": "3. Автоматизаційний щит"
+  },
+  "txtHowToVideo": {
+    "svk": "Video návod", 
+    "eng": "Video tutorial",
+    "ukr": "Відео інструкція"
+  },
+"txtHowToSVKvid": { 
+    "svk": "Slovenský návod + UKR titulky", 
+    "eng": "Slovak tutorial + UKR subtitles",
+    "ukr": "Словацька інструкція + українські субтитри"
+  },
+"txtHowToENGvid": { 
+    "svk": "Anglický návod + UKR titulky", 
+    "eng": "English tutorial + UKR subtitles",
+    "ukr": "Англійська інструкція + українські субтитри"
+  },
+  "txtHowToArduino1": {
+    "svk": "Pre celý projekt AutomationShield je potrebná schopnosť programovať, editovať kód, kompilovať a nahrávať kód do vybraných Arduín. Arduino IDE je tá najznámejšia a najpoužívanejšia možnosť v tomto ohlade. V tejto časti si prejdeme kde Arduino IDE stiahnúť a ako ho nainštalovať.",
+    "eng": "For the entire AutomationShield project, the ability to program, edit code, compile, and upload code to selected Arduinos is required. Arduino IDE is the most well-known and widely used option in this regard. In this section, we will go through where to download Arduino IDE and how to install it.",
+    "ukr": "Для всього проєкту AutomationShield необхідна здатність програмувати, редагувати код, компілювати та завантажувати код на вибрані Arduino. Arduino IDE є найбільш відомим і широко використовуваним варіантом у цьому відношенні. У цьому розділі ми розглянемо, де завантажити Arduino IDE та як його встановити."
+  },
+  "txtHowToArduino2": {
+    "svk": "Inštalačný súbor stiahnite z oficiálnej stránky: ",
+    "eng": "Download the installation file from the official website: ",
+    "ukr": "Завантажте інсталяційний файл з офіційного сайту: "
+  },
+  "txtHowToArduino3": {
+    "svk": "Link na stiahnutie",
+    "eng": "Download link",
+    "ukr": "Посилання для завантаження"
+  },
+  "txtHowToIntroduction": {
+    "svk": "Úvod",
+    "eng": "Introduction",
+    "ukr": "Вступ"
+  },
+  "txtHowToArduinoImg1": {
+    "svk": "Krok 1 - výber",
+    "eng": "Step 1 - Selection",
+    "ukr": "Крок 1 - вибір"
+  },
+  "txtHowToArduinoImg2": {
+    "svk": "Krok 2 - stiahnutie",
+    "eng": "Step 2 - Download",
+    "ukr": "Крок 2 - завантаження"
+  },
+  "txtHowToArduinoImg3": {
+    "svk": "Krok 3 - inštalácia",
+    "eng": "Step 3 - Installation",
+    "ukr": "Крок 3 - встановлення"
+  },
+  "txtHowToArduinoImg4": {
+    "svk": "Krok 4 - koniec",
+    "eng": "Step 4 - finish",
+    "ukr": "Крок 4 - закінчити"
+  },
+  "txtHowToArduino4": {
+    "svk": "Vyberte si z ponuky podľa Vášho operačného systému.",
+    "eng": "Choose from the options based on your operating system.",
+    "ukr": "Виберіть варіант відповідно до вашої операційної системи."
+  },
+  "txtHowToArduino5": {
+    "svk": "Po výbere operačného systému budete musieť prejsť niekoľkými ponukami. Tieto ponuky môžete preskočiť a jednoducho kliknúť na \"JUST DOWNLOAD\".",
+    "eng": "After selecting your operating system, you will go through a few optional prompts. You can skip them and simply click \"JUST DOWNLOAD\".",
+    "ukr": "Після вибору операційної системи вам потрібно буде переглянути кілька запитів. Ви можете їх пропустити та просто натиснути \"JUST DOWNLOAD\"."
+  },
+  "txtHowToArduino6": {
+    "svk": "Inštalácia je jednoduchá – stačí súhlasiť s obchodnými podmienkami. Nezáleží na tom, pre koho program inštalujete. Arduino IDE je pomerne malý program, a preto sa odporúča nainštalovať ho na SSD pre rýchlejšie načítavanie a plynulejší chod.",
+    "eng": "The installation process is straightforward – just agree to the terms and conditions. It does not matter for whom you are installing the program. Arduino IDE is a relatively small application, so it is recommended to install it on an SSD for faster loading and smoother operation.",
+    "ukr": "Процес встановлення простий – просто прийміть умови використання. Немає значення, для кого ви встановлюєте програму. Arduino IDE – це досить невелика програма, тому рекомендується встановити її на SSD для швидшого завантаження та плавної роботи."
+  },
+  "txtHowToArduino7": {
+    "svk": "Po inštalácii zaškrtnite políčko „Spustiť program Arduino IDE“. Ak uvidíte okno na obrázku vpravo, úspešne ste nainštalovali Arduino IDE.",
+    "eng": "After installation, check the box 'Launch Arduino IDE'. If you see the window on the right, you have successfully installed Arduino IDE.",
+    "ukr": "Після встановлення поставте галочку «Запустити Arduino IDE». Якщо ви бачите вікно праворуч, ви успішно встановили Arduino IDE."
+  },
+  "txtHowToArduino8": {
+    "svk": "V tomto momente však ešte nemôžete spustiť žiadny program AutomationShield ani AutomationShield Online, pretože nemáte nainštalované potrebné knižnice. Ako ich nainštalovať, nájdete v časti „Knižnica AutomationShield“ vyššie na tejto stránke.",
+    "eng": "At this point, you cannot run any AutomationShield or AutomationShield Online program yet because the required libraries are not installed. You can find instructions on how to install them in the 'AutomationShield Library' section above on this page.",
+    "ukr": "На цьому етапі ви ще не можете запускати жодну програму AutomationShield або AutomationShield Online, оскільки необхідні бібліотеки не встановлені. Інструкції з їх встановлення можна знайти у розділі «Бібліотека AutomationShield» вище на цій сторінці."
+  },
+  "txtHowToLibrary1": {
+    "svk": "Pokiaľ máte úspešne nainštalované Arduino IDE, nastal čas na načítanie knižníc. Knižnice sú nevyhnutné pre správne fungovanie AutomationShield, pretože obsahujú potrebné funkcie, ktoré umožňujú komunikáciu medzi hardvérom a softvérom.",
+    "eng": "If you have successfully installed the Arduino IDE, it's time to load the libraries. Libraries are essential for the proper functioning of AutomationShield as they contain necessary functions that enable communication between hardware and software.",
+    "ukr": "Якщо ви успішно встановили Arduino IDE, настав час завантажити бібліотеки. Бібліотеки необхідні для правильного функціонування AutomationShield, оскільки вони містять необхідні функції для взаємодії між апаратним і програмним забезпеченням."
+  },
+  "txtHowToLibrary2": {
+    "svk": "Táto sekcia je rozdelená na dve hlavné časti:",
+    "eng": "This section is divided into two main parts:",
+    "ukr": "Цей розділ поділений на дві основні частини:"
+  },
+  "txtHowToLibrary3": {
+    "svk": "Časť 1: AutomationShield – nevyhnutná pre základné fungovanie AutomationShield.",
+    "eng": "Part 1: AutomationShield – essential for the basic operation of AutomationShield.",
+    "ukr": "Частина 1: AutomationShield – необхідна для базового функціонування AutomationShield."
+  },
+  "txtHowToLibrary4": {
+    "svk": "Časť 2: AutomationShield Online – potrebná len v prípade, že chcete využívať AutomationShield Online.",
+    "eng": "Part 2: AutomationShield Online – required only if you want to use AutomationShield Online.",
+    "ukr": "Частина 2: AutomationShield Online – потрібна лише в тому випадку, якщо ви хочете використовувати AutomationShield Online."
+  },
+  "txtHowToLibrary5": {
+    "svk": "POZOR: Neurýchľujte inštaláciu knižníc, ale uistite sa, že ste vykonali všetky potrebné kroky správne.",
+    "eng": "WARNING: Do not rush through the installation of libraries; make sure you have completed all the necessary steps correctly.",
+    "ukr": "УВАГА: Не поспішайте з установкою бібліотек, а переконайтеся, що виконали всі необхідні кроки правильно."
+  },
+  "txtHowToLibraryImg1": {
+    "svk": "Krok 1.0 – Stiahnutie",
+    "eng": "Step 1.0 – Download",
+    "ukr": "Крок 1.0 – Завантаження"
+  },
+  "txtHowToLibrary6": {
+    "svk": "Ak už pracujete s Gitom, tento tutoriál nepotrebujete. Môžete ísť priamo na GitHub:",
+    "eng": "If you are already using Git, this tutorial is unnecessary. You can go directly to GitHub:",
+    "ukr": "Якщо ви вже працюєте з Git, цей підручник вам не потрібен. Ви можете перейти безпосередньо на GitHub:"
+  },
+  "txtHowToLibrary7": {
+    "svk": "Ak už pracujete s Gitom, tento tutoriál nepotrebujete. Môžete ísť priamo na GitHub:",
+    "eng": "If you are already using Git, this tutorial is unnecessary. You can go directly to GitHub:",
+    "ukr": "Якщо ви вже працюєте з Git, цей підручник вам не потрібен. Ви можете перейти безпосередньо на GitHub:"
+  },
+  "txtHowToLink": {
+    "svk": "Odkaz",
+    "eng": "Link",
+    "ukr": "Посилання"
+  },
+  "txtHowToLibrary8": {
+    "svk": "Ak s Gitom nepracujete, musíte knižnicu nainštalovať manuálne. Najprv prejdite na tento ",
+    "eng": "If you are not using Git, you need to install the library manually. First, go to this ",
+    "ukr": "Якщо ви не використовуєте Git, вам потрібно встановити бібліотеку вручну. Спочатку перейдіть за цим "
+  },
+  "txtHowToLibrary9": {
+    "svk": "Podľa obrázka kliknite na „Download ZIP“.",
+    "eng": "According to the image, click on 'Download ZIP'.",
+    "ukr": "Згідно зображення, натисніть 'Download ZIP'."
+  },
+  "txtHowToLibrary10": {
+    "svk": "Otvorte Arduino IDE a v hornom menu vyberte Sketch > Include Library > Add .ZIP Library...",
+    "eng": "Open Arduino IDE and in the top menu select Sketch > Include Library > Add .ZIP Library...",
+    "ukr": "Відкрийте Arduino IDE і в верхньому меню виберіть Sketch > Include Library > Add .ZIP Library..."
+  },
+  "txtHowToLibraryImg2": {
+    "svk": "Krok 1.1 – Implementácia",
+    "eng": "Step 1.1 – Implementation",
+    "ukr": "Крок 1.1 – Реалізація"
+  },
+  "txtHowToLibrary11": {
+    "svk": "Po kliknutí na 'Add .ZIP Library...' nahrajte stiahnutý .ZIP súbor z GitHubu.",
+    "eng": "After clicking 'Add .ZIP Library...', upload the downloaded .ZIP file from GitHub.",
+    "ukr": "Після натискання 'Add .ZIP Library...' завантажте завантажений .ZIP-файл з GitHub."
+  },
+  "txtHowToLibraryImg3": {
+    "svk": "Krok 1.2 – Potvrdenie",
+    "eng": "Step 1.2 – Confirmation",
+    "ukr": "Крок 1.2 – Підтвердження"
+  },
+  "txtHowToLibrary12": {
+    "svk": "Počkajte, kým konzola oznámi úspešnú inštaláciu knižnice.",
+    "eng": "Wait until the console confirms the successful installation of the library.",
+    "ukr": "Зачекайте, поки консоль повідомить про успішне встановлення бібліотеки."
+  },
+  "txtHowToLibraryImg4": {
+    "svk": "Krok 1.3 – Manuálne doplnenie",
+    "eng": "Step 1.3 – Manual Addition",
+    "ukr": "Крок 1.3 – Ручне додавання"
+  },
+  "txtHowToLibrary13": {
+    "svk": "Pri manuálnej inštalácii sa automaticky nenainštalujú závislé knižnice, ktoré AutomationShield používa. Stiahnutie projektu z GitHubu ich neobsahuje, preto ich musíme pridať manuálne.",
+    "eng": "With manual installation, dependent libraries required by AutomationShield are not installed automatically. Downloading the project from GitHub does not include them, so they must be added manually.",
+    "ukr": "При ручному встановленні залежні бібліотеки, які використовує AutomationShield, не встановлюються автоматично. Завантаження проєкту з GitHub не містить їх, тому їх потрібно додати вручну."
+  },
+  "txtHowToLibrary14": {
+    "svk": "Pre uľahčenie si ich môžete všetky stiahnuť cez tento odkaz priamo z našej stránky: ",
+    "eng": "To simplify the process, you can download all of them using this link directly from our website: ",
+    "ukr": "Щоб спростити процес, ви можете завантажити їх усі за цим посиланням безпосередньо з нашого сайту: "
+  },
+  "txtHowToLibrary15": {
+    "svk": "Ak si tieto knižnice chcete stiahnuť manuálne alebo narazíte na problém, odkazy na ne nájdete tu:",
+    "eng": "If you prefer to download these libraries manually or encounter any issues, you can find the links here:",
+    "ukr": "Якщо ви хочете завантажити ці бібліотеки вручну або зіткнулися з проблемою, посилання на них знаходяться тут:"
+  },
+  "txtHowToLibrary16": {
+    "svk": "Po stiahnutí prejdite do priečinka: C:\\Users\\ntb\\Documents\\Arduino\\libraries\\AutomationShield\\src\\lib (cesta C:\\Users\\ntb sa môže vo vašom prípade líšiť).",
+    "eng": "After downloading, navigate to: C:\\Users\\ntb\\Documents\\Arduino\\libraries\\AutomationShield\\src\\lib (the path C:\\Users\\ntb may differ on your system).",
+    "ukr": "Після завантаження перейдіть до папки: C:\\Users\\ntb\\Documents\\Arduino\\libraries\\AutomationShield\\src\\lib (шлях C:\\Users\\ntb може відрізнятися на вашому пристрої)."
+  },
+  "txtHowToLibrary17": {
+    "svk": "Všetko v priečinku 'lib' nahraďte rozbaleným .ZIP súborom, ktorý ste práve stiahli. Aj keď sa Vám môže zdať, že tam knižnice už sú, po ich otvorení zistíte, že sú prázdne, preto je potrebné ich nahradiť.",
+    "eng": "Replace everything in the 'lib' folder with the extracted .ZIP file you just downloaded. Even if it looks like the libraries are already there, you'll notice that they are empty when opened, so they need to be replaced.",
+    "ukr": "Замініть весь вміст папки 'lib' розпакованим .ZIP-файлом, який ви щойно завантажили. Навіть якщо здається, що бібліотеки вже є, при відкритті ви побачите, що вони порожні, тому їх потрібно замінити."
+  },
+  "txtHowToLibraryImg5": {
+    "svk": "Krok 1.4 – Overenie",
+    "eng": "Step 1.4 – Verification",
+    "ukr": "Крок 1.4 – Перевірка"
+  },
+  "txtHowToLibrary18": {
+    "svk": "Overte správnu inštaláciu tým, že v Arduino IDE prejdete na: File > Examples > AutomationShield > AeroShield > AeroShield_PID.",
+    "eng": "Verify the installation by navigating to: File > Examples > AutomationShield > AeroShield > AeroShield_PID in Arduino IDE.",
+    "ukr": "Переконайтеся, що встановлення пройшло успішно, перейшовши в Arduino IDE до: File > Examples > AutomationShield > AeroShield > AeroShield_PID."
+  },
+  "txtHowToLibrary19": {
+    "svk": "Nezabudnite pripojiť Arduino k PC a vybrať správny COM port (zvyčajne sa nastaví automaticky).",
+    "eng": "Don't forget to connect your Arduino to your PC and select the correct COM port (it should be set automatically).",
+    "ukr": "Не забудьте підключити Arduino до ПК і вибрати правильний COM-порт (зазвичай він встановлюється автоматично)."
+  },
+  "txtHowToLibrary20": {
+    "svk": "Po otvorení 'AeroShield_PID' kliknite vľavo hore na tlačidlo 'Compile'.",
+    "eng": "After opening 'AeroShield_PID', click the 'Compile' button in the top left corner.",
+    "ukr": "Після відкриття 'AeroShield_PID' натисніть кнопку 'Compile' у верхньому лівому куті."
+  },
+  "txtHowToLibrary21": {
+    "svk": "Po chvíli by ste mali v konzole vidieť oznámenie 'Done compiling', čo potvrdzuje správne nainštalovanie knižníc a úspešné dokončenie tejto časti návodu.",
+    "eng": "After a short wait, you should see 'Done compiling' in the console, confirming the successful installation of the libraries and the completion of this tutorial section.",
+    "ukr": "Через деякий час у консолі має з’явитися повідомлення 'Done compiling', що підтверджує успішне встановлення бібліотек і завершення цієї частини посібника."
+  },
+  "txtHowToLibrary22": {
+    "svk": "Teraz môžete spúšťať všetky programy AutomationShield, ak máte správne Shieldy. Ak však chcete použiť AutomationShield online, prejdite na druhú časť návodu, ktorá sa nachádza nižšie.",
+    "eng": "Now you can run all AutomationShield programs if you have the correct shields. However, if you want to use AutomationShield online, proceed to the second part of the tutorial below.",
+    "ukr": "Тепер ви можете запускати всі програми AutomationShield, якщо у вас є відповідні шилди. Однак якщо ви хочете використовувати AutomationShield онлайн, перейдіть до другої частини посібника нижче."
+  },
+  "txtHowToLibrary23": {
+    "svk": "Ak sa vám namiesto 'Done compiling' ukáže nejaká chyba, bude najlepšie spýtať sa vyučujúceho alebo ChatGPT.",
+    "eng": "If you see an error instead of 'Done compiling', it is best to ask your instructor or ChatGPT for help.",
+    "ukr": "Якщо замість 'Done compiling' з’явиться помилка, найкраще запитати викладача або ChatGPT."
+  },
+  "txtHowToLibraryImg6": {
+    "svk": "Krok 2.0 – Online",
+    "eng": "Step 2.0 – Online",
+    "ukr": "Крок 2.0 – Online"
+  },
+  "txtHowToLibrary24": {
+    "svk": "Inštalácia tejto knižnice je značne jednoduchšia ako všetky inštalácie doteraz, keďže sa jedná o oficiálnu knižnicu od Arduina.",
+    "eng": "Installing this library is much simpler than previous installations since it is an official Arduino library.",
+    "ukr": "Встановлення цієї бібліотеки значно простіше, ніж усі попередні, оскільки це офіційна бібліотека Arduino."
+  },
+  "txtHowToLibrary25": {
+    "svk": "Kroky na inštaláciu:",
+    "eng": "Installation steps:",
+    "ukr": "Кроки для встановлення:"
+  },
+  "txtHowToLibrary26": {
+    "svk": "1. V ľavej časti Arduino IDE kliknite na ikonku kníh - Library Manager.",
+    "eng": "1. In the left section of Arduino IDE, click on the book icon – Library Manager.",
+    "ukr": "1. У лівій частині Arduino IDE натисніть на іконку книги – Library Manager."
+  },
+  "txtHowToLibrary27": {
+    "svk": "2. Do vyhľadávacieho poľa napíšte 'HttpClient'.",
+    "eng": "2. Type 'HttpClient' into the search field.",
+    "ukr": "2. Введіть 'HttpClient' у поле пошуку."
+  },
+  "txtHowToLibrary28": {
+    "svk": "3. Dostanete viac výsledkov, ako prvá by mala byť 'ArduinoHttpClient by Arduino'.",
+    "eng": "3. You will see multiple results, but the first one should be 'ArduinoHttpClient by Arduino'.",
+    "ukr": "3. Ви отримаєте кілька результатів, але першим має бути 'ArduinoHttpClient by Arduino'."
+  },
+  "txtHowToLibrary29": {
+    "svk": "4. Nainštalujte túto knižnicu.",
+    "eng": "4. Install this library.",
+    "ukr": "4. Встановіть цю бібліотеку."
+  },
+  "txtHowToLibrary30": {
+    "svk": "Žiadne overovania v tomto prípade nie sú nutné a Vy sa môžete pustiť do programov AutomationShield online.",
+    "eng": "No verification is needed in this case, and you can start using AutomationShield online programs.",
+    "ukr": "Перевірка в цьому випадку не потрібна, і ви можете почати використовувати програми AutomationShield онлайн."
+  },
+  "txttooltipLQIK": {
+    "svk": "Vektor zosilnenia K, pre viac informácií klikni na Čo je to LQ?",
+    "eng": "Gain vector K, for more information click on What is LQ?",
+    "ukr": "Вектор підсилення K, для отримання додаткової інформації натисніть на Що таке LQ?"
+  },
+  "txttooltipMPCR": {
+    "svk": "Penalizačná matica R pre MPC, pre viac informácií klikni na Čo je to MPC?",
+    "eng": "Penalty matrix R for MPC, for more information click on What is MPC?",
+    "ukr": "Штрафна матриця R для MPC, для отримання додаткової інформації натисніть на Що таке MPC?"
+  },
+  "txttooltipMPCQ": {
+    "svk": "Penalizačná matica Q pre MPC, pre viac informácií klikni na Čo je to MPC?",
+    "eng": "Penalty matrix Q for MPC, for more information click on What is MPC?",
+    "ukr": "Штрафна матриця Q для MPC, для отримання додаткової інформації натисніть на Що таке MPC?"
+  },
+  "txttooltipMPCnp": {
+    "svk": "Predikčný horizont, pre viac informácií klikni na Čo je to MPC?",
+    "eng": "Prediction horizon, for more information click on What is MPC?",
+    "ukr": "Горизонт прогнозування, для отримання додаткової інформації натисніть на Що таке MPC?"
+  },
+  "txtCookie": {
+    "svk": "Táto stránka používa cookies pre ukladanie užívateľských preferencií ako denný/nočný režim alebo nastavenie jazyka a esenciálne cookies pre fungovanie stránky pri práci s Arduinom.",
+    "eng": "This website uses cookies to store user preferences such as day/night mode or language settings, as well as essential cookies for the proper functioning of the site when working with Arduino.",
+    "ukr": "Цей вебсайт використовує файли cookie для збереження налаштувань користувача, таких як денний/нічний режим або мова, а також основні файли cookie для коректної роботи сайту при роботі з Arduino."
+  },
+  "txtCookieAccept": {
+    "svk": "Akceptovať všetky",
+    "eng": "Accept all",
+    "ukr": "Прийняти всі"
+  },
+  "txtCookieAcceptEssential": {
+    "svk": "Akceptovať základné",
+    "eng": "Accept essential",
+    "ukr": "Прийняти лише необхідні"
+},
+  "txtCookie2": {
+    "svk": "Tieto cookies nie sú zdieľané s tretími stranami, nevyužívame ich na štatistické účely a nijakým spôsobom ich neukladáme.",
+    "eng": "These cookies are not shared with third parties, we do not use them for statistical purposes, and we do not store them in any way.",
+    "ukr": "Ці файли cookie не передаються третім сторонам, не використовуються для статистики і жодним чином не зберігаються."
+  },
+  "txtCookieSettings": {
+    "svk": "Nastavenia cookies",
+    "eng": "Cookie settings",
+    "ukr": "Налаштування файлів cookie"
+  },
+  "txtWhatsIsManual": {
+    "svk": "Čo je Manual?",
+    "eng": "What is Manual?",
+    "ukr": "Що таке Manual?"
+  },
+  "txtnp": {
+    "svk": "Predikčný horizont:",
+    "eng": "Prediction horizon:",
+    "ukr": "Горизонт прогнозування:"
+  },
+  "txtQ": {
+    "svk": "Váhová matica stavu:",
+    "eng": "State weight matrix:",
+    "ukr": "Матриця ваг стану:"
+  },
+  "txtR": {
+    "svk": "Váhová matica vstupu:",
+    "eng": "Input weight matrix:",
+    "ukr": "Матриця ваг входу:"
+  },
+  "txtK": {
+    "svk": "Matica zosilnenia:",
+    "eng": "Gain matrix:",
+    "ukr": "Матриця підсилення:"
+  },
+  "txtInDev": {
+    "svk": "Už čoskoro",
+    "eng": "Coming Soon",
+    "ukr": "Незабаром"
+  },
+  "txtReferenceValFloat": {
+    "svk": "Referenčná výška (%):",
+    "eng": "Reference altitude (%):",
+    "ukr": "Референтна висота (%):"
+  },
+  "txttooltipReferenceFloat": {
+    "svk": "Vektor referenčnej výška v percentách. 1 až 6 čísel. Desatinné miesto oddelené bodkou, nové číslo oddelené čiarkov. Min=0, Max=100. Napr. 15,20.5,30",
+    "eng": "Vector of reference altitudes in percent. 1 to 6 numbers. Decimal point separated by dot, new number separated by comma. Min=0, Max=100. E.g. 15,20.5,30",
+    "ukr": "Вектор референтних висот у відсотках. Від 1 до 6 чисел. Десяткові дроби відокремлені крапкою, нове число — через кому. Мін=0, Макс=100. Напр. 15,20.5,30"
+  },
+  "txttooltipPerLengthFloat": {
+  "svk": "Doba trvania jednej referencie v sekundách. Len jedno celé číslo číslo (nie desatinné), ktoré platí pre všetky referencie.",
+  "eng": "Duration of a single reference in seconds. Only a whole number (no decimals) that applies to all references.",
+  "ukr": "Тривалість однієї референції в секундах. Лише ціле число (без десяткових) для всіх референцій."
+},
+  "txtOpenLoopTipFloat": {
+    "svk": "Po štarte môžete ovládať referenciu potenciometrom na shielde",
+    "eng": "After startup, you can control the reference using the potentiometer on the shield",
+    "ukr": "Після запуску ви можете керувати референцією за допомогою потенціометра на шилді"
+  },
+  "txtAboutUs11": {
+    "svk": "2018 april Založenie iniciatívy",
+    "eng": "April 2018 Establishment of the initiative",
+    "ukr": "Квітень 2018 Заснування ініціативи"
+  },
+  "txtAboutUs12": {
+    "svk": "Založenie a vznik iniciatívy AutomationShield na STU SjF Ústav automatizácie, informatizácie a merania. Súčasťou založenia bolo laboratórium určené na návrh, konštruovanie, implementáciu a testovanie didaktických zariadení pre algoritmy odhadu a riadenia.",
+    "eng": "Establishment and formation of the AutomationShield initiative at STU SjF Institute of Automation, Informatics, and Measurement. Part of the establishment was a laboratory dedicated to designing, constructing, implementing, and testing didactic devices for estimation and control algorithms.",
+    "ukr": "Заснування та створення ініціативи AutomationShield в STU SjF Інститут автоматизації, інформатики та вимірювань. Частиною заснування була лабораторія, призначена для проєктування, конструювання, впровадження та тестування дидактичних пристроїв для алгоритмів оцінювання та керування."
+  },
+  "txtAboutUs21": {
+    "svk": "2018 máj Bakalárska práca OptoShield",
+    "eng": "May 2018 Bachelor's Thesis OptoShield",
+    "ukr": "Травень 2018 Бакалаврська робота OptoShield"
+  },
+  "txtAboutUs22": {
+    "svk": "Prvý z dvojice prvých didaktických Shieldov AutomationShield. OptoShield je rozširujúci modul pre Arduino, určený na optické meranie a reguláciu intenzity svetla. Umožňuje experimenty s riadením LED diód a snímaním svetla pomocou fotodetektorov.",
+    "eng": "The first of the initial pair of didactic shields from AutomationShield. OptoShield is an expansion module for Arduino, designed for optical measurement and light intensity control. It enables experiments with controlling LEDs and sensing light using photodetectors.",
+    "ukr": "Перший з початкової пари дидактичних шилдів AutomationShield. OptoShield — це розширювальний модуль для Arduino, призначений для оптичного вимірювання та регулювання інтенсивності світла. Дозволяє проводити експерименти з керуванням світлодіодами та виявленням світла за допомогою фотодетекторів."
+  },
+  "txtAboutUs31": {
+    "svk": "2018 máj Diplomová práca MagnetoShield",
+    "eng": "May 2018 Master's Thesis MagnetoShield",
+    "ukr": "Травень 2018 Магістерська робота MagnetoShield"
+  },
+  "txtAboutUs32": {
+    "svk": "MagnetoShield je druhý z dvojice prvých didaktických Shieldov AutomationShield. MagnetoShield je rozširujúci modul pre Arduino, určený na experimenty s magnetickým poľom a jeho reguláciou. Umožňuje riadenie prúdu cez elektromagnet a meranie polohy magnetu pomocou Hallovej sondy. Je vhodný na realizáciu úloh z oblasti automatického riadenia a mechatroniky, ako napríklad modelovanie a návrh regulátorov pre systémy s elektromagnetickým aktuátorom.",
+    "eng": "MagnetoShield is the second of the initial pair of didactic shields from AutomationShield. It is an expansion module for Arduino, designed for experiments with magnetic fields and their regulation. It enables current control through an electromagnet and position measurement of a magnet using a Hall sensor. It is suitable for tasks in automatic control and mechatronics, such as modeling and designing controllers for systems with an electromagnetic actuator.",
+    "ukr": "MagnetoShield — другий із початкової пари дидактичних шилдів AutomationShield. Це розширювальний модуль для Arduino, призначений для експериментів з магнітним полем та його регулюванням. Дозволяє керувати струмом через електромагніт та вимірювати положення магніту за допомогою датчика Холла. Підходить для завдань в області автоматичного керування та мехатроніки, наприклад, моделювання та розробки регуляторів для систем з електромагнітним актуатором."
+  },
+  "txtAboutUs41": {
+    "svk": "2020 jún Diplomová práca FloatShield",
+    "eng": "June 2020 Master's Thesis FloatShield",
+    "ukr": "Червень 2020 Магістерська робота FloatShield"
+  },
+  "txtAboutUs42": {
+    "svk": "Prvá didaktická pomôcka z druhej vlny AutomationShield zariadení. FloatShield je určený na experimenty s reguláciou polohy objektu v prúde vzduchu.",
+    "eng": "The first didactic tool from the second wave of AutomationShield devices. FloatShield is designed for experiments with position control of an object in an air stream.",
+    "ukr": "Перший дидактичний пристрій другої хвилі обладнання AutomationShield. FloatShield призначений для експериментів з регулювання положення об’єкта в повітряному потоці."
+  },
+  "txtAboutUs51": {
+    "svk": "2020 jún Bakalárska práca LinkShield",
+    "eng": "June 2020 Bachelor's Thesis LinkShield",
+    "ukr": "Червень 2020 Бакалаврська робота LinkShield"
+  },
+  "txtAboutUs52": {
+    "svk": "Ďalšia pomôcka z druhej vlny didaktických zariadení AutomationShield. LinkShield je určený na simuláciu a riadenie vibrácií ohybného nosníka.",
+    "eng": "Another tool from the second wave of didactic AutomationShield devices. LinkShield is designed for simulation and control of vibrations in a flexible beam.",
+    "ukr": "Ще один пристрій другої хвилі дидактичного обладнання AutomationShield. LinkShield призначений для моделювання та керування вібраціями гнучкої балки."
+  },
+  "txtAboutUs61": {
+    "svk": "2020 jún Bakalárska práca MotoShield",
+    "eng": "June 2020 Bachelor's Thesis MotoShield",
+    "ukr": "Червень 2020 Бакалаврська робота MotoShield"
+  },
+  "txtAboutUs62": {
+    "svk": "Posledná didaktická pomôcka z druhej vlny zariadení AutomationShield. MotoShield je vybavený motorom s prevodovkou sprevádzaným Hallovým kvadratúrnym enkodérom, schopní aj merať prúdový odber motora pomocou senzora na meranie prúdu vysokého bočného vedenia.",
+    "eng": "The final didactic tool from the second wave of AutomationShield devices. MotoShield is equipped with a geared motor accompanied by a Hall quadrature encoder, also capable of measuring motor current consumption using a high-side current sensing module.",
+    "ukr": "Останній дидактичний пристрій другої хвилі обладнання AutomationShield. MotoShield оснащений мотором із редуктором і холовим квадратурним енкодером, а також здатний вимірювати струм споживання двигуна за допомогою датчика струму з високого боку."
+  },
+  "txtAboutUs71": {
+    "svk": "2021 máj Diplomová práca BOBShield",
+    "eng": "May 2021 Master's Thesis BOBShield",
+    "ukr": "Травень 2021 Магістерська робота BOBShield"
+  },
+  "txtAboutUs72": {
+    "svk": "Príspevok tretej vlny didaktických zariadení AutomationShield. BOBShield používa mikro servomotor na nastavenie polohy oceľovej guľôčky vo vnútri sklápacej plastovej priehľadnej trubice, meranej snímačom vzdialenosti a času letu.",
+    "eng": "A contribution to the third wave of didactic AutomationShield devices. BOBShield uses a micro servo motor to adjust the position of a steel ball inside a tilting transparent plastic tube, measured by a distance and time-of-flight sensor.",
+    "ukr": "Внесок у третю хвилю дидактичних пристроїв AutomationShield. BOBShield використовує мікросервомотор для регулювання положення сталевої кульки всередині нахиляючої прозорої пластикової трубки, що вимірюється датчиком відстані та часу польоту."
+  },
+  "txtAboutUs81": {
+    "svk": "2021 máj Diplomová práca PressureShield",
+    "eng": "May 2021 Master's Thesis PressureShield",
+    "ukr": "Травень 2021 Магістерська робота PressureShield"
+  },
+  "txtAboutUs82": {
+    "svk": "Druhý z tretej vlny didaktických zariadení AutomationShield. PressureShield pozostáva z nádoby s integrovaným snímačom tlaku, ktorý mapuje tlak v nádobe a čerpadla. Cieľom je získať a udržať požadovanú hodnotu tlaku v nádobe aj napriek jej netesnosti.",
+    "eng": "The second device of the third wave of didactic AutomationShield equipment. PressureShield consists of a container with an integrated pressure sensor that maps the pressure inside the container and the pump. The goal is to achieve and maintain a desired pressure level in the container despite leakage.",
+    "ukr": "Другий пристрій третьої хвилі дидактичного обладнання AutomationShield. PressureShield складається з ємності з вбудованим датчиком тиску, який відображає тиск у ємності та насосі. Мета — досягти та підтримувати бажане значення тиску в ємності, незважаючи на її витік."
+  },
+  "txtAboutUs91": {
+    "svk": "2022 máj Bakalárska práca AeroShield",
+    "eng": "May 2022 Bachelor's Thesis AeroShield",
+    "ukr": "Травень 2022 Бакалаврська робота AeroShield"
+  },
+  "txtAboutUs92": {
+    "svk": "Jeden z najpoužívanejších ak nie najpoužívanejšie zariadenie od AutomationShielud. AeroShield je kyvadlo vybavené motorom poháňanou vrtulkou a schopnosťou merať uhol naklonenia.",
+    "eng": "One of the most used, if not the most used device from AutomationShield. AeroShield is a pendulum equipped with a motor-driven propeller and the ability to measure the tilt angle.",
+    "ukr": "Один із найуживаніших, якщо не найуживаніший пристрій від AutomationShield. AeroShield — це маятник, оснащений пропелером із моторним приводом та здатністю вимірювати кут нахилу."
+  },
+  "txtAboutUs101": {
+    "svk": "2019 apríl HeatShield",
+    "eng": "April 2019 HeatShield",
+    "ukr": "Квітень 2019 HeatShield"
+  },
+  "txtAboutUs102": {
+    "svk": "Didaktické zariadenie HeatShield pribudlo mimo vĺn didaktických zariadení za pomoci akademických zamestnancov. Demonštruje tepelnú reguláciu vyhrievacieho bloku 3D tlačiarne implementujúceho odporovú vykurovaciu kazetu ako ovládač a odpor so záporným teplotným koeficientom (NTC) ako senzor, ktorý vytvára jednoduchú spätnú väzbu s jedným vstupom a jedným výstupom (SISO).",
+    "eng": "The HeatShield didactic device was added outside the main waves of didactic devices with the help of academic staff. It demonstrates thermal regulation of a 3D printer's heating block, implementing a resistive heating cartridge as the actuator and a negative temperature coefficient (NTC) thermistor as the sensor, forming a simple feedback system with a single input and single output (SISO).",
+    "ukr": "Дидактичний пристрій HeatShield був доданий поза основними хвилями дидактичного обладнання за підтримки академічного персоналу. Він демонструє теплове регулювання нагрівального блоку 3D-принтера з використанням резистивного нагрівального картриджа як виконавчого механізму та термістора з негативним температурним коефіцієнтом (NTC) як датчика, створюючи просту систему зворотного зв’язку з одним входом і одним виходом (SISO)."
+  },
+  "txtAboutUs111": {
+    "svk": "2024 jún Diplomová práca PressureShield",
+    "eng": "June 2024 Master's Thesis PressureShield",
+    "ukr": "Червень 2024 Магістерська робота PressureShield"
+  },
+  "txtAboutUs112": {
+    "svk": "Jeden z najnovších prírastkov do rodiny didaktických zariadení AutomationShield. Zariadenie predstavuje jednoduchý systém s dvoma vstupmi a jedným výstupom, kde cieľom je ovládať uhol sklonu kyvadla zmenou zdvihu vytvoreného motormi.",
+    "eng": "One of the newest additions to the AutomationShield family of didactic devices. The device represents a simple system with two inputs and one output, where the goal is to control the tilt angle of a pendulum by adjusting the displacement generated by motors.",
+    "ukr": "Один із найновіших пристроїв у родині дидактичного обладнання AutomationShield. Пристрій являє собою просту систему з двома входами та одним виходом, де мета полягає в регулюванні кута нахилу маятника шляхом зміни підйому, створеного двигунами."
+  },
+  "txtHowToOnline": {
+    "svk": "Online",
+    "eng": "Online",
+    "ukr": "онлайн"
+  },
+  "txtHowToPassword": {
+    "svk": "Heslo",
+    "eng": "Password",
+    "ukr": "Пароль"
+  },
+  "txtHowToMPC": {
+    "svk": "MPC",
+    "eng": "MPC",
+    "ukr": "МПС"
+  },
+  "txtHowToGUI": {
+    "svk": "GUI",
+    "eng": "GUI",
+    "ukr": "ГІН"
+  },
+  "txtHowToData": {
+    "svk": "Export",
+    "eng": "Export",
+    "ukr": "Експорт"
+  },
+  "txtHowToOffline": {
+    "svk": "Offline",
+    "eng": "Offline",
+    "ukr": "Офлайн"
+  },
+  "txtHowToSetPassword": {
+    "svk": "Heslo do Arduina",
+    "eng": "Arduino Password",
+    "ukr": "Пароль до Arduino"
+  },
+  "txtHowToSetPassword1": {
+    "svk": "Na prihlásenie do Vášho Arduina musíte poznať vaše heslo. Heslo volíte vy sami. Ako na to sa dozviete v návode nižšie.",
+    "eng": "To log in to your Arduino, you need to know your password. You choose the password yourself. Learn how in the guide below.",
+    "ukr": "Щоб увійти до вашого Arduino, вам потрібно знати свій пароль. Ви самі обираєте пароль. Як це зробити — читайте в інструкції нижче."
+  },
+  "txtHowToSetPasswordImg1": {
+    "svk": "Formulár prihlásenia",
+    "eng": "Login Form",
+    "ukr": "Форма входу"
+  },
+  "txtHowToSetPassword2": {
+    "svk": "Heslo a meno Arduina nastavujete v časti kódu, ktorá je zobrazená na obrázku nižšie. Heslo nemusí byť zložité a odporúča sa pri tomto hesle nepoužívať špeciálne charaktery. Po prepísaní hesla je potrebné kód znovu skompilovať a nahrať na Arduino.",
+    "eng": "You set the Arduino name and password in the part of the code shown in the image below. The password does not have to be complex, and it is recommended not to use special characters. After changing the password, recompile and upload the code to the Arduino.",
+    "ukr": "Ім’я та пароль для Arduino задаються в частині коду, показаній на зображенні нижче. Пароль не обов’язково має бути складним, бажано не використовувати спеціальні символи. Після зміни пароля потрібно знову скомпілювати та завантажити код на Arduino."
+  },
+  "txtHowToSetPasswordImg2": {
+    "svk": "Časť kódu pre meno a heslo",
+    "eng": "Code section for name and password",
+    "ukr": "Фрагмент коду для імені та пароля"
+  },
+  "txtHowToSetPassword3": {
+    "svk": "Meno si môžete zvoliť ľubovolne. Slúži len na identifikáciu Vašeho Arduina v tabuľke dostupných Arduín, ktorú môžete vidieť na obrázku nižšie.",
+    "eng": "You can choose any name you like. It is used only to identify your Arduino in the list of available Arduinos, as shown in the image below.",
+    "ukr": "Ім’я можна вибрати довільно. Воно використовується лише для ідентифікації вашого Arduino в таблиці доступних пристроїв, як показано на зображенні нижче."
+  },
+  "txtHowToSetPasswordImg3": {
+    "svk": "Tabuľka dostupných Arduín",
+    "eng": "List of available Arduinos",
+    "ukr": "Список доступних Arduino"
+  },
+  "txtHowToGetData": {
+    "svk": "Získanie dát z experimentu",
+    "eng": "Getting Data from the Experiment",
+    "ukr": "Отримання даних з експерименту"
+  },
+  "txtHowToGetData1": {
+    "svk": "Okrem interaktívneho GUI tento systém zároveň automaticky vytvára dáta pre MATLAB. Dáta sú automaticky vytvorené a prepísané po každom jednom projekte. Nižšie sa dočítate, ako na to.",
+    "eng": "In addition to the interactive GUI, this system also automatically generates data for MATLAB. The data is automatically created and overwritten after each project. Read below to learn how it works.",
+    "ukr": "Окрім інтерактивного графічного інтерфейсу, ця система також автоматично створює дані для MATLAB. Дані автоматично створюються та перезаписуються після кожного проєкту. Нижче ви дізнаєтеся, як це працює."
+  },
+  "txtHowToGetDataImg1": {
+    "svk": "SerialMonitor",
+    "eng": "SerialMonitor",
+    "ukr": "SerialMonitor"
+  },
+  "txtHowToGetData2": {
+    "svk": "Dáta vytvára aplikácia SerialMonitor automaticky vždy v tom adresáry, v ktoróm je umiestnené. Dáta sa vytvoria po tom, čo sa experiment úspešne skončí.",
+    "eng": "The SerialMonitor application automatically creates the data in the same directory where it is located. The data is generated after the experiment successfully ends.",
+    "ukr": "Програма SerialMonitor автоматично створює дані в тій же директорії, де вона розміщена. Дані створюються після успішного завершення експерименту."
+  },
+  "txtHowToGetDataImg2": {
+    "svk": "Dáta",
+    "eng": "Data",
+    "ukr": "Дані"
+  },
+  "txtHowToGetData3": {
+    "svk": "Ak si chcete dáta uložiť, musíte prepísať názov ich súboru, alebo tento súbor premiestine do iného adresára. Dáta v MATLABe môžete vidieť na obrázku nižšie.",
+    "eng": "If you want to save the data, you must rename the file or move it to a different directory. The data in MATLAB is shown in the image below.",
+    "ukr": "Щоб зберегти дані, потрібно змінити назву файлу або перемістити його в іншу директорію. Дані в MATLAB можна побачити на зображенні нижче."
+  },
+  "txtHowToOnlineAS": {
+    "svk": "AutomationShield online postup",
+    "eng": "AutomationShield Online Guide",
+    "ukr": "Онлайн-інструкція AutomationShield"
+  },
+  "txtHowToOnlineAS1": {
+    "svk": "Ak ste úspešne splnili inštaláciu Arduino IDE a implementovali knižnice, môžete sa pustiť do práce s AutomationShield online. Nižšie nájdete prehľadný postup, ako rozbehnúť ľubovoľné podporované AutomationShield zariadenie na vašom počítači.",
+    "eng": "If you have successfully installed the Arduino IDE and libraries, you can start working with AutomationShield online. Below is a step-by-step guide on how to launch any supported AutomationShield device on your computer.",
+    "ukr": "Якщо ви успішно встановили Arduino IDE та бібліотеки, можете починати працювати з AutomationShield онлайн. Нижче наведено покрокову інструкцію, як запустити будь-який підтримуваний пристрій AutomationShield на вашому комп'ютері."
+  },
+  "txtHowToOnlineAS2": {
+    "svk": "Prejdite na stránku 'Modely' a stiahnite si Arduino IDE kód pre vaše zariadenie a SerialMonitor.exe alebo .app podľa toho, či máte Windows alebo MacOS. Aplikácia SerialMonitor je multifunkčná a automaticky sa prispôsobí pripojenému zariadeniu AutomationShield, takže ak pracujete s viacerými zariadeniami, nemusíte ju sťahovať viackrát.",
+    "eng": "Go to the 'Models' page and download the Arduino IDE code for your device, along with SerialMonitor.exe or .app depending on whether you use Windows or macOS. The SerialMonitor application is multifunctional and automatically adapts to the connected AutomationShield device, so you don't need to download it multiple times for different devices.",
+    "ukr": "Перейдіть на сторінку 'Моделі' і завантажте код Arduino IDE для вашого пристрою, а також додаток SerialMonitor.exe або .app – залежно від того, чи використовуєте ви Windows чи MacOS. Додаток SerialMonitor є багатофункціональним і автоматично адаптується до підключеного пристрою AutomationShield, тому вам не потрібно завантажувати його кілька разів."
+  },
+  "txtHowToOnlineAS3": {
+    "svk": "Stiahnutie súborov",
+    "eng": "File Download",
+    "ukr": "Завантаження файлів"
+  },
+  "txtHowToOnlineAS4": {
+    "svk": "Stiahnutý Arduino IDE kód extrahujte zo .zip a výsledný adresár umiestnite na vami preferované miesto v počítači. Aplikácia SerialMonitor je bez inštalácie a môžete ju hneď spustiť. Odporúčam ju umiestniť do rovnakého adresára ako Arduino IDE kód, aby ste ju nestratili.",
+    "eng": "Extract the downloaded Arduino IDE code from the .zip file and place the resulting folder wherever you prefer on your computer. The SerialMonitor app requires no installation and can be launched immediately. We recommend placing it in the same folder as the Arduino IDE code so it doesn’t get lost.",
+    "ukr": "Розпакуйте завантажений код Arduino IDE з файлу .zip і розмістіть отриману папку у зручному для вас місці на комп'ютері. Додаток SerialMonitor не потребує встановлення – його можна одразу запустити. Рекомендуємо зберігати його в тій самій папці, що й код Arduino IDE, щоб не загубити."
+  },
+  "txtHowToOnlineAS5": {
+    "svk": "Pripojenie na WiFi a nastavenie hesla",
+    "eng": "WiFi Connection and Password Setup",
+    "ukr": "Підключення до WiFi та налаштування пароля"
+  },
+  "txtHowToOnlineAS6": {
+    "svk": "Otvorte Arduino IDE kód a prepíšte vyznačené riadky. SSID je názov vašej WiFi, password je jej heslo – je potrebné ich prepísať, aby sa Arduino mohlo pripojiť na internet. ArduinoName a shield_password zvoľte ľubovoľne – slúžia na prihlásenie do zariadenia na stránke AutomationShield online, kde meno je len pre ľahšiu identifikáciu vášho zariadenia v tabuľke dostupných Arduín a heslo slúži na prihlásenie sa do vášho zariadenia.",
+    "eng": "Open the Arduino IDE code and edit the highlighted lines. SSID is the name of your WiFi network, and password is its password – these must be changed so that the Arduino can connect to the internet. Choose any values for ArduinoName and shield_password – these are used for logging into the device on the AutomationShield online page. The name is for identifying your device in the list, and the password secures access to it.",
+    "ukr": "Відкрийте код в Arduino IDE та змініть виділені рядки. SSID – це назва вашої WiFi мережі, password – її пароль. Їх потрібно змінити, щоб Arduino змогло підключитися до інтернету. Значення ArduinoName і shield_password ви можете задати самостійно – вони використовуються для входу до пристрою на сторінці AutomationShield online. Ім’я потрібно для ідентифікації пристрою в таблиці, а пароль – для авторизації."
+  },
+  "txtHowToOnlineAS7": {
+    "svk": "Prepis údajov",
+    "eng": "Editing Data",
+    "ukr": "Редагування даних"
+  },
+  "txtHowToOnlineAS8": {
+    "svk": "Meno a Heslo",
+    "eng": "Name and Password",
+    "ukr": "Ім’я та Пароль"
+  },
+  "txtHowToOnlineAS9": {
+    "svk": "Spustenie",
+    "eng": "Launching",
+    "ukr": "Запуск"
+  },
+  "txtHowToOnlineAS10": {
+    "svk": "Ak ste zmenili údaje od WiFi, meno a heslo pre Arduino, tak môžete program skompilovať a nahrať. POZOR: PRE FUNKČNOSŤ SYSTÉMU NESMIE BYŤ V ARDUINO IDE ZAPNUTÝ SERIAL MONITOR. AK JE ZAPNUTÝ, VYPNITE HO KRÍŽIKOM.",
+    "eng": "If you have changed the WiFi details and Arduino credentials, you can now compile and upload the program. WARNING: FOR THE SYSTEM TO WORK, THE SERIAL MONITOR IN THE ARDUINO IDE MUST BE CLOSED. IF IT IS OPEN, CLOSE IT USING THE 'X' BUTTON.",
+    "ukr": "Якщо ви змінили дані WiFi, ім’я та пароль Arduino, ви можете скомпілювати та завантажити програму. УВАГА: ДЛЯ КОРЕКТНОЇ РОБОТИ СИСТЕМИ В ARDUINO IDE НЕ ПОВИНЕН БУТИ ВІДКРИТИЙ СЕРІЙНИЙ МОНИТОР. ЗАКРИЙТЕ ЙОГО, ЯКЩО ВІН ВІДКРИТИЙ."
+  },
+  "txtHowToOnlineAS11": {
+    "svk": "Ak bol program nahratý, môžete zapnúť aplikáciu SerialMonitor. Zvoľte správny COM kanál a stlačte Štart. Aplikáciu môžete minimalizovať a prejsť na hlavnú stránku. Ak neviete, aký COM kanál zvoliť, môžete to skontrolovať v Arduino IDE.",
+    "eng": "Once the program is uploaded, launch the SerialMonitor application. Select the correct COM port and press Start. You can minimize the app and go to the main page. If you're unsure which COM port to choose, check it in the Arduino IDE.",
+    "ukr": "Після завантаження програми запустіть додаток SerialMonitor. Виберіть правильний COM-порт і натисніть Start. Ви можете згорнути додаток і перейти на головну сторінку. Якщо не знаєте, який COM-порт вибрати, перевірте це в Arduino IDE."
+  },
+  "txtHowToOnlineAS12": {
+    "svk": "POZOR: Arduino musíte pripojiť USB káblom k počítaču a neodpájať ho. Zároveň musí byť Arduino pripojené zdrojovým káblom do zástrčky, ako môžete vidieť na obrázku.",
+    "eng": "WARNING: The Arduino must be connected to your computer via USB and must remain connected. It also needs to be powered via a power cable plugged into the outlet, as shown in the image.",
+    "ukr": "УВАГА: Arduino має бути підключене до комп’ютера через USB-кабель і не повинно бути відключене. Також воно повинно бути підключене до мережі живлення, як показано на зображенні."
+  },
+  "txtHowToOnlineAS13": {
+    "svk": "Pripojené AutomationShield zariadenie",
+    "eng": "Connected AutomationShield Device",
+    "ukr": "Підключений пристрій AutomationShield"
+  },
+  "txtHowToOnlineAS14": {
+    "svk": "Prihlásenie",
+    "eng": "Login",
+    "ukr": "Вхід"
+  },
+  "txtHowToOnlineAS15": {
+    "svk": "Môžete ísť na hlavnú stránku AutomationShield online. V tabuľke už by ste mali vidieť svoje Arduino. Ak nie, môžete tabuľku obnoviť. Podľa svojho zvoleného mena nájdite svoje zariadenie a kliknite na Connect.",
+    "eng": "You can now go to the main AutomationShield online page. Your Arduino should already be visible in the table. If not, you can refresh the table. Find your device by the chosen name and click Connect.",
+    "ukr": "Тепер ви можете перейти на головну сторінку AutomationShield online. Ваше Arduino повинно вже з’явитися в таблиці. Якщо ні — оновіть таблицю. Знайдіть свій пристрій за вказаним ім’ям і натисніть Connect."
+  },
+  "txtHowToOnlineAS16": {
+    "svk": "Tu vložte vami zvolené heslo a počkajte, kým stránka heslo overí. Ak je všetko v poriadku, dostanete sa na stránku GUI. Ak nie, môžete heslo zadať znova.",
+    "eng": "Enter the password you chose and wait for the page to verify it. If everything is correct, you’ll be redirected to the GUI page. If not, you can try entering the password again.",
+    "ukr": "Введіть обраний вами пароль і зачекайте, поки сайт перевірить його. Якщо все вірно, ви потрапите на сторінку GUI. Якщо ні — спробуйте ввести пароль ще раз."
+  },
+  "txtHowToOnlineAS17": {
+    "svk": "GUI",
+    "eng": "GUI",
+    "ukr": "Інтерфейс (GUI)"
+  },
+  "txtHowToOnlineAS18": {
+    "svk": "Ak ste sa dostali až sem, gratulujem. Teraz môžete používať AutomationShield online. Odporúčam pozrieť si časť návodu 'GUI' pre lepšie zoznámenie sa s AutomationShield online. Ak sa vám po spustení experimentu nezobrazujú dáta, pozrite si návod 'Grafy'.",
+    "eng": "If you’ve made it this far, congratulations! You can now use AutomationShield online. We recommend reading the 'GUI' section of the guide to get more familiar with the platform. If data doesn’t appear after starting the experiment, check the 'Graphs' section.",
+    "ukr": "Якщо ви дійшли до цього етапу — вітаємо! Тепер ви можете використовувати AutomationShield онлайн. Рекомендуємо переглянути розділ інструкції 'GUI', щоб краще ознайомитися з платформою. Якщо після запуску експерименту не з’являються дані — зверніться до розділу 'Графіки'."
+  },
+  "txtHowToOnlineAS19": {
+    "svk": "AutomationShield GUI",
+    "eng": "AutomationShield GUI",
+    "ukr": "Інтерфейс AutomationShield"
+  },
+  "txtHowToOnlineAS20": {
+    "svk": "Pri zapnutí SerialMonitoru vás asi váš operačný systém upozorní. Kliknite 'Ďalšie informácie' a 'Spustiť aj v tomto prípade', ako vidíte na obrázku.",
+    "eng": "When launching SerialMonitor, your operating system may show a warning. Click 'More info' and then 'Run anyway', as shown in the image.",
+    "ukr": "Під час запуску SerialMonitor ваша операційна система може видати попередження. Натисніть 'Додаткова інформація', а потім 'Запустити все одно', як показано на зображенні."
+  },
+  "txtHowToOffline0": {
+    "svk": "AutomationShield klasik",
+    "eng": "AutomationShield Classic",
+    "ukr": "AutomationShield Класика"
+  },
+  "txtHowToOffline1": {
+    "svk": "Ak chcete využívať AutomationShield online GUI a jeho vymoženosti, musíte prejsť na návod 'Online'. V tomto návode si ukážeme ako začať s klasickými AutomationShield programami.",
+    "eng": "To use the AutomationShield online GUI and its features, you need to switch to the 'Online' guide. In this guide, we will show you how to get started with classic AutomationShield programs.",
+    "ukr": "Щоб скористатися онлайн GUI AutomationShield та його функціями, вам потрібно перейти до інструкції 'Онлайн'. У цьому посібнику ми покажемо, як почати роботу з класичними програмами AutomationShield."
+  },
+  "txtHowToOffline2": {
+    "svk": "AutomationShield offline",
+    "eng": "AutomationShield Offline",
+    "ukr": "AutomationShield Офлайн"
+  },
+  "txtHowToOffline3": {
+    "svk": "Pokiaľ ste úspešne nainštalovali Arduino IDE a implementovali knižnice, môžete pokračovať v tomto návode. Pokiaľ ste tak neurobili, prosím postupujte podľa návodou 'Arduino IDE' a 'Knižnica AutomationShield'.",
+    "eng": "If you have successfully installed the Arduino IDE and imported the libraries, you may continue with this guide. If not, please follow the 'Arduino IDE' and 'AutomationShield Library' instructions.",
+    "ukr": "Якщо ви успішно встановили Arduino IDE та додали бібліотеки, можете продовжити за цим посібником. Якщо ні, будь ласка, дотримуйтесь інструкцій 'Arduino IDE' та 'Бібліотека AutomationShield'."
+  },
+  "txtHowToOffline4": {
+    "svk": "Otvorte Arduino IDE a na ľavo hore File> Examples> AutomationShield> Váš model> Typ regulácie. Otvoríte tým pripravený program, s ktorým môžete experimentovať a naučiť sa ako AutomationShield funguje, aby ste mohli napísať svoj vlastný program.",
+    "eng": "Open the Arduino IDE and navigate to File > Examples > AutomationShield > Your Model > Control Type. This will open a pre-made program that you can experiment with to learn how AutomationShield works, so you can write your own code.",
+    "ukr": "Відкрийте Arduino IDE і перейдіть до File > Examples > AutomationShield > Ваша модель > Тип керування. Це відкриє готову програму, з якою ви можете експериментувати та дізнатися, як працює AutomationShield, щоб потім створити власну програму."
+  },
+  "txtHowToOffline5": {
+    "svk": "Uistite sa, že máte Arduino pripojené jak do počítaču pomocou USB, tak so zdrojom do zástrčky.",
+    "eng": "Make sure your Arduino is connected to the computer via USB and also plugged into a power outlet.",
+    "ukr": "Переконайтесь, що Arduino підключене до комп'ютера через USB та до джерела живлення в розетці."
+  },
+  "txtHowToOffline6": {
+    "svk": "Nahratie programu",
+    "eng": "Uploading the Program",
+    "ukr": "Завантаження програми"
+  },
+  "txtHowToOffline7": {
+    "svk": "Ak si prajete program nahrať, musíte v ľavo hore najprv vybrať správny COM kanál (mal by sa vybrať sám automaticky) a následne stlačiť tlačidlo vedľa výberu COM kanálu 'Compile and upload'. Po nahratí sa Vám spustí experiment. Pokiaľ chcete po experimente zmeniť program, musíte toto tlačidlo stlaćiť po úprave znovu. Ak sa Vám experiment nespustil, skontrolujte konzolu v Arduino IDE pre prípadné chyby a skontrolujte, či je zariadenie správne pripojené k PC a zásuvke.",
+    "eng": "To upload the program, first select the correct COM port in the upper left corner (it should be selected automatically), then press the 'Compile and upload' button next to it. Once uploaded, the experiment will start. If you want to modify the program after the experiment, press the button again after making changes. If the experiment did not start, check the console in the Arduino IDE for errors and make sure the device is properly connected to the PC and power.",
+    "ukr": "Щоб завантажити програму, спочатку виберіть правильний COM-порт у верхньому лівому куті (він має вибратися автоматично), а потім натисніть кнопку 'Compile and upload' поруч. Після завантаження експеримент розпочнеться. Якщо ви хочете змінити програму після експерименту, натисніть цю кнопку ще раз після редагування. Якщо експеримент не розпочався, перевірте консоль Arduino IDE на наявність помилок і переконайтесь, що пристрій правильно підключений до ПК та розетки."
+  },
+  "txtHowToOffline8": {
+    "svk": "Príklad chyby",
+    "eng": "Example of an Error",
+    "ukr": "Приклад помилки"
+  },
+  "txtHowToOffline9": {
+    "svk": "Výber COM kanálu",
+    "eng": "Selecting the COM Port",
+    "ukr": "Вибір COM-порту"
+  },
+  "txtHowToOffline10": {
+    "svk": "Nahratie programu",
+    "eng": "Uploading the Program",
+    "ukr": "Завантаження програми"
+  },
+  "txtHowToOffline11": {
+    "svk": "Viac o AutomationShield offline",
+    "eng": "More About AutomationShield Offline",
+    "ukr": "Детальніше про AutomationShield офлайн"
+  },
+  "txtHowToOffline12": {
+    "svk": "Pokiaľ sa chcete dozvedieť viac o offline experimentoch a AutomationShield zariadeniach ako takých, navštívte nás GitHub, kde je kompletná wikipédia a dokumentácia našich zariadení.",
+    "eng": "If you want to learn more about offline experiments and AutomationShield devices in general, visit our GitHub where you’ll find a complete wiki and documentation of our devices.",
+    "ukr": "Щоб дізнатися більше про офлайн-експерименти та пристрої AutomationShield загалом, відвідайте наш GitHub, де ви знайдете повну вікі та документацію до наших пристроїв."
+  },
+  "txtHowToOffline13": {
+    "svk": "Odkaz na náš GitHub:",
+    "eng": "Link to our GitHub:",
+    "ukr": "Посилання на наш GitHub:"
+  },
+  "txtHowToOffline14": {
+    "svk": "odkaz.",
+    "eng": "link.",
+    "ukr": "посилання."
+  },
+  "txtHowToMPC1": {
+    "svk": "MPC v AutomationShield online",
+    "eng": "MPC in AutomationShield Online",
+    "ukr": "MPC в AutomationShield Online"
+  },
+  "txtHowToMPC2": {
+    "svk": "V AutomationShield online používame MPC výpočet priamo na Arduine a EMPC, ktoré využíva Matlabom vygenerované MPC dáta. V tomto návode si ukážeme ako upraviť parametre oboch typov MPC regulátoru.",
+    "eng": "In AutomationShield Online, we use MPC computed directly on the Arduino, and EMPC, which uses MPC data generated by MATLAB. In this guide, we will show how to modify the parameters of both types of MPC controllers.",
+    "ukr": "В AutomationShield Online ми використовуємо MPC, що обчислюється безпосередньо на Arduino, та EMPC, яке використовує дані MPC, згенеровані в MATLAB. У цьому посібнику ми покажемо, як змінювати параметри обох типів MPC-регуляторів."
+  },
+  "txtHowToMPC3": {
+    "svk": "1.MPC v Arduine: FloatShield.",
+    "eng": "1.MPC on Arduino: FloatShield.",
+    "ukr": "1.MPC на Arduino: FloatShield."
+  },
+  "txtHowToMPC4": {
+    "svk": "2.EMPC v MATLABe: AeroShield, MagnetoShield.",
+    "eng": "2.EMPC in MATLAB: AeroShield, MagnetoShield.",
+    "ukr": "2.EMPC у MATLAB: AeroShield, MagnetoShield."
+  },
+  "txtHowToMPC5": {
+    "svk": "1.MPC na Arduine",
+    "eng": "1.MPC on Arduino",
+    "ukr": "1.MPC на Arduino"
+  },
+  "txtHowToMPC6": {
+    "svk": "MPC na Arduine spoznáte aj tak, že v stiahnutom adresári Arduino kódu sa nenachádza ectrl.h dokument, ale adresár pomenovaný MPC a podobne, ako je na obrázku.",
+    "eng": "You can recognize MPC on Arduino by the fact that the downloaded Arduino code folder does not contain an 'ectrl.h' file but instead has a folder named 'MPC', as shown in the picture.",
+    "ukr": "MPC на Arduino можна розпізнати за тим, що в завантаженій теці з кодом Arduino немає файлу 'ectrl.h', але є тека з назвою 'MPC', як показано на зображенні."
+  },
+  "txtHowToMPC7": {
+    "svk": "Úprava dát",
+    "eng": "Modifying Data",
+    "ukr": "Редагування даних"
+  },
+  "txtHowToMPC8": {
+    "svk": "MPC upravíte tak, že otvoríte MPC adresár a nájdete mpc_const.h",
+    "eng": "To modify MPC, open the MPC folder and locate 'mpc_const.h'.",
+    "ukr": "Щоб змінити MPC, відкрийте теку MPC і знайдіть файл 'mpc_const.h'."
+  },
+  "txtHowToMPC9": {
+    "svk": "Otvoríte mpc_const.h, upravíte podľa seba, uložíte a nahráte Arduino IDE kód podľa návodu 'online' alebo 'offline', podľa potreby.",
+    "eng": "Open 'mpc_const.h', modify it as needed, save it, and upload the Arduino IDE code following the 'online' or 'offline' guide as appropriate.",
+    "ukr": "Відкрийте файл 'mpc_const.h', змініть його за потреби, збережіть і завантажте код в Arduino IDE відповідно до інструкцій 'онлайн' або 'офлайн'."
+  },
+  "txtHowToMPC10": {
+    "svk": "2.EMPC v MATLABe",
+    "eng": "2.EMPC in MATLAB",
+    "ukr": "2.EMPC у MATLAB"
+  },
+  "txtHowToMPC11": {
+    "svk": "EMPC pomocou MATLABu spoznáte aj tak, že v adresári Arduino kódu máte ectrl.h súbor.",
+    "eng": "You can recognize EMPC using MATLAB by the presence of an 'ectrl.h' file in the Arduino code folder.",
+    "ukr": "EMPC, згенероване в MATLAB, можна розпізнати за наявністю файлу 'ectrl.h' у теці з кодом Arduino."
+  },
+  "txtHowToMPC12": {
+    "svk": "Nastavenie EMPC v MATLABe",
+    "eng": "Setting Up EMPC in MATLAB",
+    "ukr": "Налаштування EMPC у MATLAB"
+  },
+  "txtHowToMPC13": {
+    "svk": "Na zmenu EMPC údajov musíte najprv lokalizovať MATLAB súbor pre ich generovanie. Tieto súbory sa nachádzajú na ceste: Dokumenty> Arduino> libraries> AutomationShield> matlab> examples> Shield> Shield_EMPC> Shield_Export_EMPC.m",
+    "eng": "To modify EMPC data, first locate the MATLAB file used to generate them. These files are located at: Documents > Arduino > libraries > AutomationShield > matlab > examples > Shield > Shield_EMPC > Shield_Export_EMPC.m",
+    "ukr": "Щоб змінити дані EMPC, спочатку знайдіть MATLAB-файл для їх генерації. Ці файли знаходяться за адресою: Documents > Arduino > libraries > AutomationShield > matlab > examples > Shield > Shield_EMPC > Shield_Export_EMPC.m"
+  },
+  "txtHowToMPC14": {
+    "svk": "Táto cesta sa môže už v adresári konkrétneho Shieldu líšiť, tak isto ako názov EMPC_export súboru.",
+    "eng": "This path may differ depending on the specific Shield, as well as the name of the EMPC export file.",
+    "ukr": "Цей шлях може відрізнятися залежно від конкретного Shield, так само як і назва файлу експорту EMPC."
+  },
+  "txtHowToMPC15": {
+    "svk": "Na obrázku nižšie môžete vidieť otvorený príklad EMPC_export.m súboru v MATLABe. Ak ste ešte s AutomationShieldom v MATLABe nerobili, budete si musieť nainštalovať potrebné MATLAB knižnice. Na inštaláciu Vás MATLAB vyzve sám, stačí keď všetko povolíte. Po úspešnom otvorení tu môžete upraviť EMPC.",
+    "eng": "In the image below, you can see an example of an open EMPC_export.m file in MATLAB. If you haven't used AutomationShield in MATLAB yet, you’ll need to install the required MATLAB libraries. MATLAB will prompt you to do this—just allow all the requests. Once opened successfully, you can edit the EMPC here.",
+    "ukr": "На зображенні нижче показано приклад відкритого файлу EMPC_export.m у MATLAB. Якщо ви ще не використовували AutomationShield у MATLAB, вам потрібно буде встановити необхідні бібліотеки. MATLAB запропонує це зробити — просто підтвердіть. Після відкриття ви зможете редагувати EMPC."
+  },
+  "txtHowToMPC16": {
+    "svk": "Na spodku MATLAB kódu nájdete riadok 'empcToC(ectrl,'generic');'. Zvoľte 'generic' ak pracujete s Arduinom UNO R4 pre AutomationShield online. Ak robíte offline a máte iný Arduino model, bude najlepšie poradiť sa s internetom, ktorý typ zvoliť. Po zbehnutí programu sa vám vedľa tohoto MATLAB kódu vytvorí Váš nový ectrl.h súbor. Týmto súborom nahraďte ten originálny vedľa Arduino IDE kódu a dbajte na to, aby sa volal rovnako. Potom môžete Arduino kód skompilovať, nahrať a postupovať podľa návodu 'online'.",
+    "eng": "At the end of the MATLAB code, you'll find the line 'empcToC(ectrl,'generic');'. Choose 'generic' if you're using Arduino UNO R4 with AutomationShield Online. If you're working offline or with another Arduino model, it's best to check online for the correct type. After running the script, a new 'ectrl.h' file will be generated next to your MATLAB file. Replace the original file in the Arduino code folder with this one and make sure the name matches. Then, you can compile and upload the Arduino code following the 'online' guide.",
+    "ukr": "У кінці коду MATLAB ви знайдете рядок 'empcToC(ectrl,'generic');'. Виберіть 'generic', якщо використовуєте Arduino UNO R4 з AutomationShield Online. Якщо працюєте офлайн або з іншою моделлю Arduino, краще перевірити в інтернеті, який тип обрати. Після запуску програми буде створено новий файл 'ectrl.h' поруч із файлом MATLAB. Замініть ним оригінальний файл у теці з кодом Arduino та переконайтесь, що назва збігається. Потім скомпілюйте та завантажте код, дотримуючись інструкцій 'онлайн'."
+  },
+  "txtHowToGUI1": {
+    "svk": "Grafické používateľské prostredie",
+    "eng": "Graphical User Interface",
+    "ukr": "Графічний інтерфейс користувача"
+  },
+  "txtHowToGUI2": {
+    "svk": "Grafické používateľské prostredie (GUI) pozostáva z dvoch hlavných častí a má mnoho automatických funkcií. Prostredie je intuitívne, ale v tomto návode si prejdeme niektoré vymoženosti, ktoré ponúka.",
+    "eng": "The graphical user interface (GUI) consists of two main parts and includes many automatic features. It is intuitive, but this guide will walk you through some of the unique functionalities it offers.",
+    "ukr": "Графічний інтерфейс користувача (GUI) складається з двох основних частин і має багато автоматичних функцій. Інтерфейс інтуїтивно зрозумілий, але в цьому посібнику ми розглянемо деякі з його можливостей."
+  },
+  "txtHowToGUI3": {
+    "svk": "Stránka pre GUI",
+    "eng": "GUI page",
+    "ukr": "Сторінка GUI"
+  },
+  "txtHowToGUI4": {
+    "svk": "Oznámenia a tooltipy",
+    "eng": "Notifications and tooltips",
+    "ukr": "Сповіщення та підказки"
+  },
+  "txtHowToGUI5": {
+    "svk": "Stránka je vybavená mnohými tooltipmi. Stačí namieriť kurzor na ľubovoľný text alebo ikonu a zobrazí sa Vám text s presnejším popisom a návodom na to, čo daná vec znamená a ako s ňou zaobchádzať.",
+    "eng": "The page includes many tooltips. Simply hover the cursor over any text or icon to display a more detailed description and instructions on its function.",
+    "ukr": "На сторінці є багато підказок. Просто наведіть курсор на будь-який текст або значок, щоб побачити детальний опис та інструкції щодо використання."
+  },
+  "txtHowToGUI6": {
+    "svk": "Na stránke je niekoľko oznámení o tom, čo sa práve deje. Tieto oznámenia pomáhajú detegovať možné chyby alebo oznamujú, že stránka reagovala na váš pokyn.",
+    "eng": "The page displays various notifications about current activities. These help detect possible errors or confirm that the page has responded to your command.",
+    "ukr": "На сторінці відображаються сповіщення про поточні події. Вони допомагають виявити помилки або підтвердити, що сторінка відреагувала на вашу команду."
+  },
+  "txtHowToGUI7": {
+    "svk": "Stránka sama deteguje, či je spojená s Arduinom. Ak komunikácia vypadne, GUI vás na to upozorní a budete musieť prihlásenie zopakovať. Pri opakovaných problémoch skontrolujte pripojenie k WiFi, káblové spojenia a aplikáciu SerialMonitor.",
+    "eng": "The page automatically detects whether it is connected to the Arduino. If communication fails, the GUI will notify you, and you will need to repeat the login process. If problems persist, check the WiFi connection, cable connections, and the SerialMonitor application.",
+    "ukr": "Сторінка автоматично визначає, чи підключена вона до Arduino. Якщо зв'язок втрачається, GUI сповістить вас і потрібно буде повторити вхід. Якщо проблеми не зникають, перевірте з'єднання Wi-Fi, кабелі та додаток SerialMonitor."
+  },
+  "txtHowToGUI8": {
+    "svk": "Formulár experimentov",
+    "eng": "Experiment form",
+    "ukr": "Форма експериментів"
+  },
+  "txtHowToGUI9": {
+    "svk": "Výhodou tohto systému je, že pri experimentoch môžete meniť vstupné parametre a spúšťať jednotlivé experimenty po sebe bez obmedzení či opätovného nahratia programu na Arduino.",
+    "eng": "A key advantage of this system is that you can modify input parameters and run experiments one after another without restrictions or re-uploading the program to the Arduino.",
+    "ukr": "Перевага цієї системи в тому, що ви можете змінювати вхідні параметри та запускати експерименти один за одним без обмежень або повторного завантаження програми на Arduino."
+  },
+  "txtHowToGUI10": {
+    "svk": "Ak ste spustili experiment, tlačidlo ŠTART po opätovnom stlačení nič neurobí. Vstupné parametre môžete upravovať aj počas prebiehajúceho experimentu, ale budú platné až pri ďalšom spustení.",
+    "eng": "If an experiment is already running, pressing the START button again will have no effect. You can edit the input parameters during the experiment, but they will only apply at the next start.",
+    "ukr": "Якщо експеримент уже запущено, повторне натискання кнопки СТАРТ нічого не змінить. Ви можете змінювати вхідні параметри під час експерименту, але вони будуть застосовані лише при наступному запуску."
+  },
+  "txtHowToGUI11": {
+    "svk": "Jednotlivé experimenty obsahujú okrem tooltipov aj odkazy na wikipédiu o daných experimentoch alebo o Vašom zariadení. Nebojte sa na ne kliknúť, otvoria sa v novom okne.",
+    "eng": "Each experiment includes not only tooltips but also links to Wikipedia articles about the experiment or your device. Feel free to click on them; they will open in a new window.",
+    "ukr": "Кожен експеримент містить не лише підказки, а й посилання на Вікіпедію про експеримент або ваш пристрій. Не соромтеся натискати на них — вони відкриються в новому вікні."
+  },
+  "txtHowToGUI12": {
+    "svk": "Nevykresľuje sa mi graf",
+    "eng": "The graph is not rendering",
+    "ukr": "Графік не відображається"
+  },
+  "txtHowToGUI13": {
+    "svk": "Chybu musíte detegovať sami, ale tu je niekoľko rád, ako postupovať:",
+    "eng": "You will need to detect the error yourself, but here are some tips on how to proceed:",
+    "ukr": "Ви повинні самостійно визначити помилку, але ось кілька порад, як діяти:"
+  },
+  "txtHowToGUI14": {
+    "svk": "1. Skontrolujte káblové pripojenie, Arduino musí byť pripojené ako k PC, tak aj do zástrčky.",
+    "eng": "1. Check the cable connections. The Arduino must be connected to both the PC and the power outlet.",
+    "ukr": "1. Перевірте кабельне з'єднання. Arduino має бути підключене як до ПК, так і до розетки."
+  },
+  "txtHowToGUI15": {
+    "svk": "2. Skontrolujte aplikáciu SerialMonitor. Zo SerialMonitoru sa môžete dozvedieť o prípadných chybách.",
+    "eng": "2. Check the SerialMonitor application. It may provide information about potential errors.",
+    "ukr": "2. Перевірте додаток SerialMonitor. Він може повідомити про можливі помилки."
+  },
+  "txtHowToGUI16": {
+    "svk": "3. Ďalším možným problémom je chyba pri spúšťaní AutomationShield online. Aplikácia SerialMonitor musí byť spustená a pripojená na správny kanál predtým, ako sa prihlásite do Arduina cez prihlasovací formulár. Alternatívne môže byť problém v tom, že máte v aplikácii Arduino IDE spustenú funkciu SerialMonitor. Táto funkcia nesmie byť aktívna, inak sa náš SerialMonitor nedokáže pripojiť k Arduinu.",
+    "eng": "3. Another possible issue is a mistake during the AutomationShield online startup process. The SerialMonitor app must be running and connected to the correct channel before logging in to the Arduino via the login form. Another issue may be that the SerialMonitor in the Arduino IDE is open. This must be closed, or our SerialMonitor will not be able to connect to the Arduino.",
+    "ukr": "3. Ще одна можлива проблема — помилка при запуску AutomationShield online. Додаток SerialMonitor має бути запущений і підключений до правильного каналу перед входом до Arduino через форму входу. Також проблема може бути в тому, що в Arduino IDE відкрито SerialMonitor. Його потрібно закрити, інакше наш SerialMonitor не зможе підключитися до Arduino."
+  },
+  "txtHowToGUI17": {
+    "svk": "4. Ak je chyba niekde inde a našli ste ju, no neviete ju vyriešiť, neváhajte kontaktovať správcu AutomationShield online, ktorého nájdete v kontaktoch.",
+    "eng": "4. If the error lies elsewhere and you have identified it but cannot fix it, feel free to contact the AutomationShield online administrator listed in the contact section.",
+    "ukr": "4. Якщо проблема в іншому місці, і ви її знайшли, але не можете вирішити, не соромтеся звернутися до адміністратора AutomationShield online, якого можна знайти в розділі контактів."
+  },
+  "txtHowToGUI18": {
+  "svk": "V tomto návode nájdete:",
+  "eng": "In this guide you will find:",
+  "ukr": "У цьому посібнику ви знайдете:"
+},
+"txtHowToGUI19": {
+  "svk": "1. Tooltipy a oznámenia",
+  "eng": "1. Tooltips and notifications",
+  "ukr": "1. Підказки та сповіщення"
+},
+"txtHowToGUI20": {
+  "svk": "2. Práca s GUI",
+  "eng": "2. Working with the GUI",
+  "ukr": "2. Робота з графічним інтерфейсом"
+},
+"txtHowToGUI21": {
+  "svk": "3. Chyba: nevykresľovanie grafov",
+  "eng": "3. Error: Graph not displaying",
+  "ukr": "3. Помилка: графік не відображається"
+},
+"txtHowToGUI22": {
+  "svk": "4. Dodatočné informácie",
+  "eng": "4. Additional information",
+  "ukr": "4. Додаткова інформація"
+},
+"txtHowToGUI23": {
+  "svk": "Dodatočné informácie",
+  "eng": "Additional information",
+  "ukr": "Додаткова інформація"
+},
+"txtHowToGUI24": {
+  "svk": "Pozrite si aj návod 'Export', nakoľko tento systém podporuje aj exportovanie dát do MATLABu. Pokiaľ máte nejaké iné problémy ako spomenuté vyššie, pozrite sa na návod 'Debug'.",
+  "eng": "Also check the 'Export' guide, as this system supports exporting data to MATLAB. If you are experiencing issues not mentioned above, take a look at the 'Debug' guide.",
+  "ukr": "Також перегляньте посібник 'Export', оскільки ця система підтримує експорт даних до MATLAB. Якщо у вас виникають інші проблеми, не згадані вище, зверніться до посібника 'Debug'."
+},
+"txtHowToDebug": {
+  "svk": "Debug",
+  "eng": "Debug",
+  "ukr": "Зневадження"
+},
+"txtHowToDebug1": {
+  "svk": "Riešenie chýb AutomationShield online",
+  "eng": "Troubleshooting AutomationShield Online",
+  "ukr": "Усунення неполадок AutomationShield онлайн"
+},
+"txtHowToDebug2": {
+  "svk": "V tomto návode sa pozrieme ako riešiť tieto chyby:",
+  "eng": "In this guide, we will look at how to resolve the following issues:",
+  "ukr": "У цьому посібнику ми розглянемо, як вирішити наступні проблеми:"
+},
+"txtHowToDebug3": {
+  "svk": "1. Nejde sa mi prihlásiť do Arduina",
+  "eng": "1. I can’t log in to the Arduino",
+  "ukr": "1. Не вдається увійти в Arduino"
+},
+"txtHowToDebug4": {
+  "svk": "2. Nevidím moje Arduino v tabuľke dostupných Arduín",
+  "eng": "2. I can’t see my Arduino in the list of available devices",
+  "ukr": "2. Я не бачу своє Arduino в списку доступних пристроїв"
+},
+"txtHowToDebug5": {
+  "svk": "3. Nevykresľujú sa mi grafy",
+  "eng": "3. The graphs are not displaying",
+  "ukr": "3. Графіки не відображаються"
+},
+"txtHowToDebug6": {
+  "svk": "4. Posielam Shieldu pokyny ale experiment neprebieha",
+  "eng": "4. I am sending commands to the Shield but the experiment is not running",
+  "ukr": "4. Я надсилаю команди до Shield, але експеримент не запускається"
+},
+"txtHowToDebug8": {
+  "svk": "Heslo sa zadáva v Arduino IDE kóde pred kompiláciou a nahratím kódu do Arduina. Pokiaľ ste postupovali podľa návodu 'Prihlásenie' a aj tak sa Vám nedá prihlásiť, skúste tipy nižšie.",
+  "eng": "The password is set in the Arduino IDE code before compiling and uploading it to the Arduino. If you followed the 'Login' guide and still can't log in, try the tips below.",
+  "ukr": "Пароль задається в коді Arduino IDE перед компіляцією та завантаженням на Arduino. Якщо ви дотримувалися інструкцій у розділі 'Вхід', але не можете увійти, спробуйте наступні поради."
+},
+"txtHowToDebug9": {
+  "svk": "1. Ak ste zvolili heslo, v ktoróm sú nejaké špeciálne charaktery, alebo písmo iného jazyku ako Azbuka či Grécka abeceda, skúste použiť klasickú latinku bez diakritiky. Postupujte poďla návodu 'Prihlásenie' a 'Online'.",
+  "eng": "1. If you chose a password with special characters or letters from non-Latin scripts such as Cyrillic or Greek, try using plain Latin characters without diacritics. Follow the 'Login' and 'Online' guides.",
+  "ukr": "1. Якщо ви вибрали пароль зі спеціальними символами або літерами з інших алфавітів, таких як кирилиця чи грецька, спробуйте використати звичайні латинські символи без діакритичних знаків. Дотримуйтесь інструкцій з розділів 'Вхід' і 'Онлайн'."
+},
+"txtHowToDebug10": {
+  "svk": "2. Skontrolujte, či sa Vaše Arduino stále nachádza v tabuľke dostupných Arduín na hlavnej stránke. Pokiaľ tam nie je, postupujte poďla návodu nižšie '2. Nevidím moje Arduino v tabuľke dostupných Arduín'.",
+  "eng": "2. Check if your Arduino still appears in the list of available devices on the main page. If not, follow the steps below in '2. I can’t see my Arduino in the list of available devices'.",
+  "ukr": "2. Перевірте, чи ваше Arduino все ще є у списку доступних пристроїв на головній сторінці. Якщо ні, дотримуйтесь інструкцій нижче в розділі '2. Я не бачу своє Arduino в списку доступних пристроїв'."
+},
+"txtHowToDebug11": {
+  "svk": "3. Ak ste prešli prvé dva kroky a problém ostáva, skontrolujte aplikáciu SerialMonitor. Je možné, že máte neštandartný problém, SerialMonitor by Vám mohol pomôcť s detegovaním problému. Skontolujte v ňom napríklad to, aké heslo dostáva po Vašom pokuse o prihlásenie, vložené heslo sa v ňom musí vypísať.",
+  "eng": "3. If the first two steps didn't help, check the SerialMonitor application. You might have an unusual issue, and SerialMonitor can help identify it. For example, check what password the device receives after your login attempt—the entered password should be printed there.",
+  "ukr": "3. Якщо перші два кроки не допомогли, перевірте застосунок SerialMonitor. Можливо, у вас нестандартна проблема, і SerialMonitor допоможе її виявити. Наприклад, перевірте, який пароль отримує пристрій після спроби входу — введений пароль має відображатися."
+},
+"txtHowToDebug12": {
+  "svk": "4. Ak Vám nepomohlo nič z predošlých typov, skontaktujte našeho správcu AutomationShield online, ktorého nájdete v kontaktoch alebo vyučujúceho.",
+  "eng": "4. If none of the above tips help, contact our AutomationShield Online administrator (listed in the contacts) or your instructor.",
+  "ukr": "4. Якщо жодна з порад не допомогла, зверніться до адміністратора AutomationShield Online (контакти вказані на сайті) або до викладача."
+},
+"txtHowToDebug13": {
+  "svk": "Pokiaľ nevidíte svoje Arduino v tabuľke dostupných Arduín na hlavnej stránke, postupujte podľa návodu nižšie.",
+  "eng": "If you don’t see your Arduino in the list of available devices on the main page, follow the guide below.",
+  "ukr": "Якщо ви не бачите своє Arduino в списку доступних пристроїв на головній сторінці, дотримуйтесь інструкцій нижче."
+},
+"txtHowToDebug14": {
+  "svk": "1. Skontrolujte aplikáciu SerialMonitor. Pokiaľ sa Arduino nevie zaregistrovať na stránku a skúsi to 2 a viac krát, asi bude nestabilný WiFi signál. V takómto prípade odporúčame zmeniť WiFi napríklad na mobilný HotSpot. Nestabilný WiFi signál môže spôsobiť aj odpojenie Arduina od systému po prihlásení.",
+  "eng": "1. Check the SerialMonitor application. If the Arduino tries to register on the website multiple times without success, the WiFi signal might be unstable. In that case, we recommend switching to another network, such as a mobile hotspot. An unstable signal can also disconnect the Arduino after logging in.",
+  "ukr": "1. Перевірте застосунок SerialMonitor. Якщо Arduino не може зареєструватися на сайті й пробує це декілька разів, можливо, сигнал Wi-Fi нестабільний. У такому випадку рекомендуємо змінити мережу, наприклад, на мобільний хотспот. Нестабільний Wi-Fi також може призвести до відключення Arduino після входу."
+},
+"txtHowToDebug15": {
+  "svk": "2. Pokiaľ sa SerialMonitor úspešne zaregistroval a v SerialMonitore vidíte, že sa Arduino dotazuje na heslo, nahrajte program znovu a postupujte podľa postupu 'online'. Odporúčame stiahnúť si Arduino IDE kód znovu zo stránky modelov, mohlo sa stať, že ste omylom prepísali nejakú časť kódu.",
+  "eng": "2. If SerialMonitor registered successfully and you see the Arduino requesting a password, reupload the program and follow the 'Online' guide. We recommend downloading the Arduino IDE code again from the models page in case part of it was accidentally overwritten.",
+  "ukr": "2. Якщо SerialMonitor успішно зареєструвався і ви бачите, що Arduino запитує пароль, повторно завантажте програму та дотримуйтесь інструкцій у розділі 'Онлайн'. Рекомендуємо заново завантажити код з розділу моделей на сайті, можливо, частину коду було випадково змінено."
+},
+"txtHowToDebug16": {
+  "svk": "3. Ak Vám nepomohlo nič z predošlých typov, skontaktujte našeho správcu AutomationShield online, ktorého nájdete v kontaktoch alebo vyučujúceho.",
+  "eng": "3. If none of the above tips help, contact our AutomationShield Online administrator (listed in the contacts) or your instructor.",
+  "ukr": "3. Якщо жодна з порад не допомогла, зверніться до адміністратора AutomationShield Online (контакти вказані на сайті) або до викладача."
+},
+"txtHowToDebug17": {
+  "svk": "Pokiaľ ste sa dostali až na stránku GUI a spúšťate experimenty, no zariadenie je nečinné, tak skúste:",
+  "eng": "If you reached the GUI page and started the experiments but the device is unresponsive, try the following:",
+  "ukr": "Якщо ви дійшли до сторінки GUI і запускаєте експерименти, але пристрій не реагує, спробуйте наступне:"
+},
+"txtHowToDebug18": {
+  "svk": "1. Skontrolujte, či máte riadne pripojené Arduino ku zdroju z elektrickej zástrčky. Arduino musí byť pripojené jak USB káblom do PC, tak zdrojovým káblom na 220V.",
+  "eng": "1. Make sure your Arduino is properly connected to a power source. It must be connected both via USB to the PC and to a 220V power supply.",
+  "ukr": "1. Переконайтеся, що ваше Arduino правильно підключене до джерела живлення. Воно має бути з’єднане як через USB до ПК, так і до джерела живлення на 220 В."
+},
+"txtHowToDebug19": {
+  "svk": "2. Skontrolujte aplikáciu SerialMonitor. Ak sa dáta dostávajú do Arduina, SerialMonitor ich vypíše a prípadne vypíše aj kde nastáva chyba. V SerialMonitory zároveň uvidíte aj zaslané dáta a môžete skontrolovať, či sa poslali správne.",
+  "eng": "2. Check the SerialMonitor application. If data is reaching the Arduino, SerialMonitor will display it, and possibly also where the error is occurring. You can also see what data was sent and verify if it was sent correctly.",
+  "ukr": "2. Перевірте застосунок SerialMonitor. Якщо дані доходять до Arduino, SerialMonitor їх відобразить і, можливо, покаже, де виникає помилка. Ви також побачите надіслані дані та зможете перевірити, чи були вони передані правильно."
+},
+"txtKsu": { 
+  "svk": "Ksu", 
+  "eng": "Ksu",
+  "ukr": "Ksu"
+},
+"txtKq": { 
+  "svk": "Kq", 
+  "eng": "Kq",
+  "ukr": "Kq"
+},
+"txtKdq": { 
+  "svk": "Kdq", 
+  "eng": "Kdq",
+  "ukr": "Kdq"
+},
+"txtKe": { 
+  "svk": "Ke", 
+  "eng": "Ke",
+  "ukr": "Ke"
+},
+"txteta": { 
+  "svk": "eta", 
+  "eng": "eta",
+  "ukr": "eta"
+},
+"txtStateGraph1": { 
+  "svk": "Priebeh uhla ramena a referenie", 
+  "eng": "Arm angle and reference trajectory", 
+  "ukr": "Зміна кута плеча та еталонна траєкторія"
+},
+"txtStateGraph2": { 
+  "svk": "Priebeh rýchlosti ramena", 
+  "eng": "Arm velocity", 
+  "ukr": "Швидкість плеча"
+},
+"txtStateGraph3": { 
+  "svk": "Priebeh uhla kyvadla", 
+  "eng": "Pendulum angle", 
+  "ukr": "Кут маятника"
+},
+"txtStateGraph4": { 
+  "svk": "Priebeh rýchlosti kyvadla", 
+  "eng": "Pendulum velocity", 
+  "ukr": "Швидкість маятника"
+},
+"txttooltipKsu": {
+  "svk": "Hlavné zosilnenie (určuje základné zosilnenie systému).",
+  "eng": "Main gain (determines the basic amplification of the system).",
+  "ukr": "Основне посилення (визначає базове посилення системи)."
+},
+"txttooltipKe": {
+  "svk": "Prírastok energie (ako sa pridáva energia do systému).",
+  "eng": "Energy increment (how energy is added to the system).",
+  "ukr": "Приріст енергії (як енергія додається до системи)."
+},
+"txttooltipKdq": {
+  "svk": "Kdq je určené na obmedzenie rýchlosti (reguluje maximálnu rýchlosť systému).",
+  "eng": "Kdq is used to limit speed (regulates the maximum speed of the system).",
+  "ukr": "Kdq використовується для обмеження швидкості (регулює максимальну швидкість системи)."
+},
+"txttooltipKq": {
+  "svk": "Kq je zosilnenie, aby to nevybehlo za hranicu ako uhol ramena (udržuje stabilitu uhla ramena).",
+  "eng": "Kq is a gain to prevent it from exceeding limits, like the arm’s angle (maintains stability of the arm angle).",
+  "ukr": "Kq — це коефіцієнт посилення, щоб не перевищувати межі, наприклад, кут плеча (підтримує стабільність кута плеча)."
+},
+"txtShare": {
+  "svk": "Zdielať",
+  "eng": "Share",
+  "ukr": "Поділитися"
+  },
+"txtCopied": {
+  "svk": "Link skopírovaný",
+  "eng": "Link copied",
+  "ukr": "Посилання скопійовано"
+}
+
+
+
+
+
+
+
+}
