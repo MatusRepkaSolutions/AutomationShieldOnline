@@ -56,6 +56,7 @@ This system is intended to support interactive learning in automation and contro
 **Author:** Matúš Repka  
 **Institution:** Slovak University of Technology in Bratislava  
 **Year:** 2025
+📄 [Read full thesis (PDF, Slovak)](https://github.com/MatusRepkaSolutions/AutomationShieldOnline/blob/main/Publications/Slovak/AutomationShieldOnline.pdf)
 
 ## 🛠 Technologies Used
 
