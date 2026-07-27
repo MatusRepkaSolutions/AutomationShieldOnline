@@ -11,10 +11,27 @@ To run the application:
 
 1. Make sure you have Python 3 installed.
 2. Install the required dependencies:
-   pip install pyserial requests scipy
+   pip install -r requirements.txt
 3. Run the app using:
    python SerialMonitor.py
 
-❗ Why no pre-built app?
+macOS Apple Silicon build:
 
-To keep the repository clean and avoid uploading unnecessary binaries, the compiled version is not included. The code is ready to be built or packaged (e.g., with `pyinstaller`) if needed.
+1. Install Python and Tkinter (Homebrew example):
+   brew install python python-tk@3.14
+2. Create and activate a virtual environment, then install dependencies:
+   python3 -m venv .venv
+   source .venv/bin/activate
+   pip install -r requirements.txt
+3. From this Python directory, build the native arm64 app:
+   pyinstaller --clean --noconfirm SerialMonitor.spec
+4. The application will be available at:
+   dist/SerialMonitor.app
+
+📦 Pre-built macOS app
+
+The Apple Silicon DMG is available at:
+website/automationshield/file/SerialMonitor-macOS-Apple-Silicon.dmg
+
+It supports M1, M2, M3, M4, and newer Apple Silicon Macs. The app is
+distributed without an Apple Developer ID signature or notarization.

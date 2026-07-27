@@ -60,7 +60,7 @@ include 'A_topbar.php'; // Include the connection file
           </div>
           <div class="model-box-wrapper-text-support">
             <div class="model-box-wrapper-text-support-header">Serial Monitor (MacOS)</div>
-            <a class="model-box-wrapper-text-support-link" download="SerialMonitor" href="https://mrsolutions.sk/automationshield/file/SerialMonitor.exe" data-txt="txtDownload"></a>
+            <a class="model-box-wrapper-text-support-link" download="SerialMonitor-macOS-Apple-Silicon.dmg" href="https://mrsolutions.sk/automationshield/file/SerialMonitor-macOS-Apple-Silicon.dmg" data-txt="txtDownload"></a>
           </div>
         </div>
       </div>
@@ -88,7 +88,7 @@ include 'A_topbar.php'; // Include the connection file
           </div>
           <div class="model-box-wrapper-text-support">
             <div class="model-box-wrapper-text-support-header">Serial Monitor (MacOS)</div>
-            <a class="model-box-wrapper-text-support-link" download="SerialMonitor" href="https://mrsolutions.sk/automationshield/file/SerialMonitor.exe" data-txt="txtDownload"></a>
+            <a class="model-box-wrapper-text-support-link" download="SerialMonitor-macOS-Apple-Silicon.dmg" href="https://mrsolutions.sk/automationshield/file/SerialMonitor-macOS-Apple-Silicon.dmg" data-txt="txtDownload"></a>
           </div>
         </div>
       </div>
@@ -118,7 +118,7 @@ include 'A_topbar.php'; // Include the connection file
           </div>
           <div class="model-box-wrapper-text-support">
             <div class="model-box-wrapper-text-support-header">Serial Monitor (MacOS)</div>
-            <a class="model-box-wrapper-text-support-link" download="SerialMonitor" href="https://mrsolutions.sk/automationshield/file/SerialMonitor.exe" data-txt="txtDownload"></a>
+            <a class="model-box-wrapper-text-support-link" download="SerialMonitor-macOS-Apple-Silicon.dmg" href="https://mrsolutions.sk/automationshield/file/SerialMonitor-macOS-Apple-Silicon.dmg" data-txt="txtDownload"></a>
           </div>
         </div>
       </div>
@@ -147,7 +147,7 @@ include 'A_topbar.php'; // Include the connection file
           </div>
           <div class="model-box-wrapper-text-support">
             <div class="model-box-wrapper-text-support-header">Serial Monitor (MacOS)</div>
-            <a class="model-box-wrapper-text-support-link" download="SerialMonitor" href="https://mrsolutions.sk/automationshield/file/SerialMonitor.exe" data-txt="txtDownload"></a>
+            <a class="model-box-wrapper-text-support-link" download="SerialMonitor-macOS-Apple-Silicon.dmg" href="https://mrsolutions.sk/automationshield/file/SerialMonitor-macOS-Apple-Silicon.dmg" data-txt="txtDownload"></a>
           </div>
         </div>
       </div>
@@ -242,6 +242,5 @@ include 'A_footbar.php'; // Include the connection file
 
 </body>
 </html>
-
 
 
